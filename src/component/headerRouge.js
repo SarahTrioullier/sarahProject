@@ -7,6 +7,7 @@ import {
     MenuButton
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
+import Accordion from "./Accordion";
 
 
 const phantomStyle = {
@@ -39,15 +40,6 @@ function HeaderRouge() {
                         <span style={logoStyle}>
                            Sarah Trioullier
                         </span>
-                        <Menu   menuButton={<MenuButton style={{marginRight: '6em'}} > ☰</MenuButton>}>
-                            <MenuItem href="/headerRouge">Header Rouge</MenuItem>
-                            <MenuItem href="/headerImpact">Header Impact</MenuItem>
-                            <MenuItem href="/">Header Jaune</MenuItem>
-                            <MenuItem href="/headerWithoutBand">Header Sans Bandeau Jaune</MenuItem>
-                            <MenuItem href="/headerWithoutRed">Header Sans Bandeau Rouge</MenuItem>
-                        </Menu>
-
-
 
                     </MDBNavbarBrand>
                 </MDBNavbar>

@@ -15,23 +15,26 @@ import HeaderWithoutRed from "./component/headerWithoutBandRed";
 const routing = (
     <Router>
       <div>
-        <Header />
         <Switch>
           <Route exact path="/" component={App} />
             <Route path="/headerRouge">
                 <HeaderRouge />
+            </Route>
+            <Route path="/headerJaune">
+                <Header />
             </Route>
             <Route path="/headerImpact">
                 <HeaderImpact />
             </Route>
             <Route path="/headerWithoutBand">
                 <HeaderWithout />
+                <App/>
             </Route>
             <Route path="/headerWithoutRed">
                 <HeaderWithoutRed />
             </Route>
         </Switch>
-          <App />
+
         <Footer />
       </div>
     </Router>
