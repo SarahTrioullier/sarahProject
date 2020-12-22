@@ -12,10 +12,23 @@ import './fonts/Impact Label.ttf';
 import HeaderImpact from "./component/headerImpact";
 import HeaderWithout from "./component/headerWithOutBand";
 import HeaderWithoutRed from "./component/headerWithoutBandRed";
+import SimpleReactLightbox from 'simple-react-lightbox';
+import Images from "./component/imageTest";
+import HeaderImpactNew from "./component/headerImpactNew";
+import HeaderHelvetica from "./component/headerHelvetica";
 const routing = (
     <Router>
       <div>
+          <App/>
         <Switch>
+
+            <Route exact path="/" component={App} />
+            <Route path="/headerImpactNew">
+                <HeaderImpactNew />
+            </Route>
+            <Route path="/headerHelvetica">
+                <HeaderHelvetica />
+            </Route>
           <Route exact path="/" component={App} />
             <Route path="/headerRouge">
                 <HeaderRouge />
@@ -34,7 +47,7 @@ const routing = (
                 <HeaderWithoutRed />
             </Route>
         </Switch>
-
+<Images/>
         <Footer />
       </div>
     </Router>

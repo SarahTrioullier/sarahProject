@@ -26,3 +26,18 @@ code {
   url("./fonts/Impact Label.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "HelveticaNeueUltraLight";
+  src: local("HelveticaNeueUltraLight"),
+  url("./fonts/HelveticaNeueUltraLight.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "impact";
+  src: local("impact"),
+  url("./fonts/impact.ttf") format("truetype");
+  font-weight: normal;
+}
+

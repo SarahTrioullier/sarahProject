@@ -13,6 +13,9 @@ class App extends Component {
                 <MenuItem href="/headerJaune">Header Jaune</MenuItem>
                 <MenuItem href="/headerWithoutBand">Header Sans Bandeau Jaune</MenuItem>
                 <MenuItem href="/headerWithoutRed">Header Sans Bandeau Rouge</MenuItem>
+                <MenuItem href="/headerHelvetica">Header Helvetica</MenuItem>
+                <MenuItem href="/headerImpactNew">Header Impact New</MenuItem>
+
             </Menu>
         </Router>
     );
