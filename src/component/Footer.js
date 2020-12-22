@@ -4,7 +4,7 @@ import instagram from '../images/instagram.png';
 
 
 const footerStyle = {
-    backgroundColor: "white",
+    backgroundColor: "transparent",
     fontFamily: 'HelveticaNeueUltraLight',
     fontSize: "15px",
     color: "black",

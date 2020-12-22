@@ -85,17 +85,20 @@ function HeaderImpactNew() {
                                             Still life
                                         </a>
                                     </AccordionItemPanel>
-                                    <AccordionItemPanel >
-                                        <a href="/" style={menuStyle}>
-                                            Contact
-                                        </a>
-                                    </AccordionItemPanel>
+
 
                                     <AccordionItemPanel >
                                         <a href="/" style={menuStyle}>
                                             Travel
                                         </a>
                                     </AccordionItemPanel>
+
+                                    <AccordionItemPanel >
+                                        <a href="/" style={menuStyle}>
+                                            Contact
+                                        </a>
+                                    </AccordionItemPanel>
+
 
 
                                 </AccordionItem>

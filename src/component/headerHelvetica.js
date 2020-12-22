@@ -43,11 +43,11 @@ function HeaderHelvetica() {
     return (
         <Router>
             <div style={phantomStyle}>
-                <MDBNavbar className="header" style={{ backgroundColor: "white" }}   dark>
+                <MDBNavbar className="header" style={{ backgroundColor: "transparent" }}   dark>
                     <MDBNavbarBrand>
                         <div>
                         <span style={logoStyle}>
-SARAH TRIOULLIER
+SARAHTRIOULLIER
                         </span>
                         </div>
                     </MDBNavbarBrand>
