@@ -15,6 +15,7 @@ import HeaderWithoutRed from "./component/headerWithoutBandRed";
 import Images from "./component/imageTest";
 import HeaderImpactNew from "./component/headerImpactNew";
 import HeaderHelvetica from "./component/headerHelvetica";
+import HelveticaMenu from "./component/helveticaMenu";
 const routing = (
     <Router>
       <div>
@@ -45,6 +46,12 @@ const routing = (
             <Route path="/headerWithoutRed">
                 <HeaderWithoutRed />
             </Route>
+            <Route path="/helveticaMenu">
+                <HelveticaMenu />
+            </Route>
+
+
+
         </Switch>
 <Images/>
         <Footer />
