@@ -64,11 +64,11 @@ function HeaderImpactNew() {
 
                                 <div className="dropdown-content">
 
-                                    <a className="dropContent " href="/headerImpact" >
+                                    <a className="dropContent " href="/" >
                                         Portrait
                                     </a>
 
-                                    <a className="dropContent "  href="/headerRouge" >
+                                    <a className="dropContent "  href="/" >
                                         Still life
                                     </a>
 

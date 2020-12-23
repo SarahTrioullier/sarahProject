@@ -8,11 +8,6 @@ class App extends Component {
     return (
         <Router>
             <Menu   menuButton={<MenuButton style={{marginRight: '6em'}} > ☰</MenuButton>}>
-                <MenuItem href="/headerRouge">Header Rouge</MenuItem>
-                <MenuItem href="/headerImpact">Header Impact</MenuItem>
-                <MenuItem href="/headerJaune">Header Jaune</MenuItem>
-                <MenuItem href="/headerWithoutBand">Header Sans Bandeau Jaune</MenuItem>
-                <MenuItem href="/headerWithoutRed">Header Sans Bandeau Rouge</MenuItem>
                 <MenuItem href="/headerHelvetica">Header Helvetica</MenuItem>
                 <MenuItem href="/headerImpactNew">Header Impact New</MenuItem>
                 <MenuItem href=" /helveticaMenu">Header HelveticaMenu</MenuItem>
