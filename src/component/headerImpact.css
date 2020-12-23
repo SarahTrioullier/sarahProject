@@ -1,0 +1,31 @@
+
+.mon-menu
+{
+    background-color:black;
+    max-height:50px;
+    overflow:hidden;
+}
+.mon-menu:hover
+{
+    max-height:100%;
+    overflow:auto;
+}
+
+.hideBlock
+{
+    display: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.hooverOk:hover + .hideBlock
+{
+    display: block;
+}
+
+.dropContent:hover
+{
+    display: block;
+}

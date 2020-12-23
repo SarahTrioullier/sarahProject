@@ -64,7 +64,7 @@ function HeaderImpactNew() {
 <div>
                             <Accordion allowZeroExpanded style={innerDiv}>
                                 <AccordionItem>
-                                    <AccordionItemHeading>
+                                    <AccordionItemHeading className="testHoover">
                                         <AccordionItemButton style={{ alignItems: 'center'}}>
 
                                             <button  className="hamburger" type="button">

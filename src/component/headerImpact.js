@@ -7,7 +7,15 @@ import {
     MenuButton
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
-
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemButton,
+    AccordionItemHeading,
+    AccordionItemPanel
+} from "react-accessible-accordion";
+import './headerImpact.css';
+import './header.css';
 
 const phantomStyle = {
     position: "fixed",
@@ -15,6 +23,12 @@ const phantomStyle = {
     height: "140px",
     width: "100%",
     backgroundColor: "black"
+};
+
+const innerDiv = {
+    display: "inline-block",
+    fontFamily: 'impact',
+    textAlign: "center"
 };
 
 const menuStyle = {
@@ -41,13 +55,30 @@ function HeaderImpact() {
                         <span style={logoStyle}>
                            Sarah Trioullier
                         </span>
-                        <Menu style={{marginLeft: "3em"}}  menuButton={<MenuButton style={{marginLeft: "6em"}} > ☰</MenuButton>}>
-                            <MenuItem href="/headerRouge">Header Rouge</MenuItem>
-                            <MenuItem href="/headerImpact">Header Impact</MenuItem>
-                            <MenuItem href="/headerJaune">Header Jaune</MenuItem>
-                            <MenuItem href="/headerWithoutBand">Header Sans Bandeau Jaune</MenuItem>
-                            <MenuItem href="/headerWithoutRed">Header Sans Bandeau Rouge</MenuItem>
-                        </Menu>
+
+
+                                        <div  className="hamburger hooverOk" type="button">
+                                            <span  className="hamburger-box"><span  className="hamburger-inner hamburger-inner::before hamburger-inner::after"> </span>
+                                            </span>
+
+                                        </div>
+
+<div className="hideBlock">
+                                        <a className="dropContent" href="/headerRouge" >
+                                            Still life
+                                        </a>
+    <br/>
+    <a  href="/headerRouge" >
+       Portrait
+    </a>
+
+</div>
+
+
+
+
+
+
                     </MDBNavbarBrand>
                 </MDBNavbar>
             </div>

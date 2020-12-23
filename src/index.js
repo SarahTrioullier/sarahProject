@@ -12,7 +12,6 @@ import './fonts/Impact Label.ttf';
 import HeaderImpact from "./component/headerImpact";
 import HeaderWithout from "./component/headerWithOutBand";
 import HeaderWithoutRed from "./component/headerWithoutBandRed";
-import SimpleReactLightbox from 'simple-react-lightbox';
 import Images from "./component/imageTest";
 import HeaderImpactNew from "./component/headerImpactNew";
 import HeaderHelvetica from "./component/headerHelvetica";
