@@ -29,3 +29,49 @@
 {
     display: block;
 }
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+}
+
+.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    left: 0;
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: black;
+    margin: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: yellow;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: yellow;
+    text-align: center;
+color: black;}
+
+.dropdown:hover .dropdown-content {display: block;   min-width:100%;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
+.wrapper {
+    min-height: 100%;
+    left: 0;
+    right: 0;
+}

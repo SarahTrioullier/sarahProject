@@ -1,14 +1,6 @@
 import React from "react";
 import { MDBNavbar, MDBNavbarBrand } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from 'react-accessible-accordion';
 import '@szhsin/react-menu/dist/index.css';
 import './header.css';
 
@@ -61,50 +53,42 @@ function HeaderImpactNew() {
                         <span style={logoStyle}>
                           SARAH TRIOULLIER
                         </span>
-<div>
-                            <Accordion allowZeroExpanded style={innerDiv}>
-                                <AccordionItem>
-                                    <AccordionItemHeading className="testHoover">
-                                        <AccordionItemButton style={{ alignItems: 'center'}}>
+                            <div className="dropdown" >
 
-                                            <button  className="hamburger" type="button">
+
+                                <button style={{ alignItems: 'center'}} className="hamburger dropbtn" type="button">
                                             <span  className="hamburger-box"><span  className="hamburger-inner hamburger-inner::before hamburger-inner::after"> </span>
                                             </span>
-                                            </button>
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-
-                                    <AccordionItemPanel >
-                                        <a href="/headerImpact" style={menuStyle}>
-                                            Portrait
-                                        </a>
-                                    </AccordionItemPanel>
-                                    <AccordionItemPanel >
-                                        <a href="/headerRouge" style={menuStyle}>
-                                            Still life
-                                        </a>
-                                    </AccordionItemPanel>
+                                </button>
 
 
-                                    <AccordionItemPanel >
-                                        <a href="/" style={menuStyle}>
-                                            Travel
-                                        </a>
-                                    </AccordionItemPanel>
+                                <div className="dropdown-content">
 
-                                    <AccordionItemPanel >
-                                        <a href="/" style={menuStyle}>
-                                            Contact
-                                        </a>
-                                    </AccordionItemPanel>
+                                    <a className="dropContent " href="/headerImpact" >
+                                        Portrait
+                                    </a>
+
+                                    <a className="dropContent "  href="/headerRouge" >
+                                        Still life
+                                    </a>
 
 
 
-                                </AccordionItem>
 
-                            </Accordion>
-</div>
+                                    <a className="dropContent "  href="/" >
+                                        Travel
+                                    </a>
+
+                                    <a className="dropContent "  href="/" >
+                                        Contact
+                                    </a>
+
+
+
+                                </div>
+
+                            </div>
+
                         </div>
                     </MDBNavbarBrand>
                 </MDBNavbar>
