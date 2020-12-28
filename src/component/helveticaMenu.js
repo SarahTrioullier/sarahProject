@@ -7,17 +7,12 @@ import './helveticaMenu.css';
 const phantomStyle = {
     position: "fixed",
     display: "block",
-    height: "60px",
+    height: "260px",
     width: "100%",
-    textAlign: "center"
-
+    textAlign: "center",
+marginTop: "auto"
 };
 
-const menuStyle = {
-    alignItems: 'center',
-    marginLeft: "37.8em",
-    color: 'yellow'
-};
 
 const logoStyle = {
     color: "black",

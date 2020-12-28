@@ -1,5 +1,5 @@
 import React from "react";
-import {MDBContainer, MDBFooter, MDBNavbarBrand} from "mdbreact";
+import {MDBContainer, MDBFooter} from "mdbreact";
 import instagram from '../images/instagram.png';
 
 

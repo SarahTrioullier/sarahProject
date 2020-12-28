@@ -1,3 +1,5 @@
+@import "~hamburgers/dist/hamburgers.css";
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -53,4 +55,38 @@
 }
 .hamburger-inner::after{
     background-color: black;
+}
+
+.accordion{
+    left: 50%;
+}
+
+.dropContent:hover
+{
+    display: block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+}
+
+.dropdown {
+
+
+}
+
+
+.dropdown:hover .dropdown-content {display: block;   min-width:100%;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+.wrapper {
+    min-height: 100%;
+    left: 0;
+    right: 0;
 }
