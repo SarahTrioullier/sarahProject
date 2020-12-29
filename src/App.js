@@ -2,24 +2,19 @@ import React, { Component } from 'react'
 import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Menu, MenuButton, MenuItem} from "@szhsin/react-menu";
+import SimpleReactLightbox from "simple-react-lightbox";
 import '@szhsin/react-menu/dist/index.css';
+import Images from "./component/imageTest";
+import GalleryMenu from "./component/GalleryMenu";
 class App extends Component {
-  render() {
-    return (
-        <Router>
-            <Menu   menuButton={<MenuButton style={{marginRight: '6em'}} > ☰</MenuButton>}>
-                <MenuItem href="/headerRouge">Header Rouge</MenuItem>
-                <MenuItem href="/headerImpact">Header Impact</MenuItem>
-                <MenuItem href="/headerJaune">Header Jaune</MenuItem>
-                <MenuItem href="/headerWithoutBand">Header Sans Bandeau Jaune</MenuItem>
-                <MenuItem href="/headerWithoutRed">Header Sans Bandeau Rouge</MenuItem>
-                <MenuItem href="/headerHelvetica">Header Helvetica</MenuItem>
-                <MenuItem href="/headerImpactNew">Header Impact New</MenuItem>
-
-            </Menu>
-        </Router>
-    );
-  }
+    render() {
+        return (
+            <SimpleReactLightbox>
+                <div style={{height: '2em'}}></div>
+                <GalleryMenu/>
+            </SimpleReactLightbox>
+        );
+    }
 }
 
 export default App;
