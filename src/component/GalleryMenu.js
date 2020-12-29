@@ -4,7 +4,7 @@ import personn from '../images/personn.jpg';
 import sky from '../images/sky.jpg';
 import arch from '../images/arch.jpg';
 import Layout from "../Layout";
-
+import './GalleryMenu.css';
 
 const options = {
 
@@ -15,8 +15,8 @@ const options = {
 }
 const imageStyle = {
     marginTop: '220px',
-    imageHeight: '1632',
-    imageWidth: '1224',
+    height: '710px',
+    width: '1006px',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto'
