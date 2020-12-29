@@ -14,14 +14,10 @@ const routing = (
       <div>
 <App/>
         <Switch>
-            <Route exact path="/" component={App} />
-
-          <Route exact path="/" component={App} />
             <Route path="/helveticaMenu">
                 <HelveticaMenu />
             </Route>
         </Switch>
-<Images/>
         <Footer />
       </div>
     </Router>

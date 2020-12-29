@@ -1,10 +1,25 @@
-img {
+.container-img{
+    display:block;
+    overflow:hidden;
+    height: 600px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.container-img img{
+    width:100%;
+    height:100%;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-img:hover {
+.container-img:hover img{
     transform:scale(1.2);
 }
+

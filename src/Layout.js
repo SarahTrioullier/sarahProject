@@ -6,7 +6,7 @@ function Layout({ children }) {
         <React.Fragment>
             <HelveticaMenu />
             <main >
-                <div >
+                <div  style={{marginTop: '200px'}}>
                     <div >{children}</div>
                 </div>
             </main>

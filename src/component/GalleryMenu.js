@@ -1,8 +1,10 @@
 import { SRLWrapper } from "simple-react-lightbox";
 import React from "react";
 import personn from '../images/personn.jpg';
-import sky from '../images/sky.jpg';
-import arch from '../images/arch.jpg';
+import travel from '../images/travel.jpg';
+import portrait from '../images/portrait.jpg';
+import accueil from '../images/accueil.jpg';
+import stilllife from '../images/stilllife.jpg';
 import Layout from "../Layout";
 import './GalleryMenu.css';
 
@@ -10,42 +12,53 @@ const options = {
 
     caption: {
         captionColor: "#a6cfa5",
-        marginLeft: '3em'
+        marginLeft: '3em',
+        marginTop: '300px'
     }
 }
 const imageStyle = {
-    marginTop: '220px',
-    height: '600px',
-    width: '1006px',
+
+    height: '100%',
+    width: '100%',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto'
 }
+
+
+
 const GalleryMenu = () => {
     return (
         <Layout>
             <SRLWrapper  style={options} >
 
-                <a href='../images/personn.jpg'>
-                    <img style={imageStyle} src={personn} />
+                <div className="container-img">
+                <a href='../images/portrait.jpg'>
+                    <img onContextMenu={(e)=> e.preventDefault()} style={imageStyle} src={portrait}  />
                 </a>
-                <br/>
-                <a href={sky}>
-                    <img  style={imageStyle} src={sky} />
-                </a>
-                <br/>
-                <a href={personn} >
-                    <img style={imageStyle} src={personn} />
-                </a>
-                <br/>
-                <a href={sky}>
-                    <img style={imageStyle} src={sky} />
-                </a>
-                <br/>
-                <a href='https://images.freeimages.com/images/large-previews/68c/delicate-arch-2-1391623.jpg'>
-                    <img style={imageStyle} src={arch} />
-                </a>
+                </div>
 
+                <br/>
+                <div onContextMenu={(e)=> e.preventDefault()}  className="container-img">
+                <a href={stilllife}>
+                    <img style={imageStyle} src={stilllife} onContextMenu={false}/>
+                </a>
+                </div>
+                <br/>
+
+                    <div onContextMenu ={(e)=> e.preventDefault()}  className="container-img">
+                <a href={travel} >
+                    <img style={imageStyle} src={travel} onContextMenu={false} />
+                </a>
+                    </div>
+                <br/>
+
+
+                <div  onContextMenu={(e)=> e.preventDefault()} className="container-img">
+                <a href={accueil}>
+                    <img  style={imageStyle} src={accueil} onContextMenu={false}/>
+                </a>
+                </div>
             </SRLWrapper>
         </Layout>
     );
