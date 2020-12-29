@@ -28,19 +28,10 @@ function HelveticaMenu() {
             <div style={phantomStyle}>
                 <MDBNavbar className="header" style={{ backgroundColor: "transparent" }}   dark>
                     <MDBNavbarBrand>
-                        <div>
-                        <span style={logoStyle}>
+                        <div className="dropdown">
+                        <span className="dropbtn" style={logoStyle}>
 SARAHTRIOULLIER
                         </span>
-                        </div>
-                        <div className="dropdown" >
-
-
-                            <button style={{ alignItems: 'center'}} className="hamburger dropbtn" type="button">
-                                            <span  className="hamburger-box"><span  className="hamburger-inner hamburger-inner::before hamburger-inner::after"> </span>
-                                            </span>
-                            </button>
-
 
                             <div className="dropdown-content">
 
@@ -67,6 +58,10 @@ SARAHTRIOULLIER
 
                             </div>
                         </div>
+
+
+
+
                     </MDBNavbarBrand>
                 </MDBNavbar>
             </div>

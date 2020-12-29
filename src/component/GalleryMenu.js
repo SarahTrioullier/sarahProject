@@ -15,7 +15,7 @@ const options = {
 }
 const imageStyle = {
     marginTop: '220px',
-    height: '710px',
+    height: '600px',
     width: '1006px',
     display: 'block',
     marginLeft: 'auto',

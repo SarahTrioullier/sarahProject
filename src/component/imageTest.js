@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import personn from '../images/personn.jpg';
 import sky from '../images/sky.jpg';
 import arch from '../images/arch.jpg';
-
+import './image.css';
 
 const options = {
 
@@ -26,13 +26,28 @@ function Images() {
         <Router>
             <SRLWrapper style={options} >
 
-            <a href='../images/personn.jpg'>
-        <img style={imageStyle} src={personn} />
-            </a>
-        <br/>
+                <div className="container">
+                    <div className="content">
+                        <a href={personn} target="_blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image"
+                                 src={personn}/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">This is a title</h3>
+                                <p className="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <br/>
+
+                <div>
             <a href={sky}>
             <img  style={imageStyle} src={sky} />
             </a>
+                </div>
                 <br/>
                 <a href={personn} >
                     <img style={imageStyle} src={personn} />
