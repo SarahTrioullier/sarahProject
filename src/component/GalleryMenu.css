@@ -18,8 +18,29 @@
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+
 }
 .container-img:hover img{
-    transform:scale(1.2);
+    background: url("../images/contact_logo.jpg");
 }
 
+.testHoover
+{
+    background-image: url("../images/contact_logo.jpg");
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.testHoover:hover{
+    background-image: url("../images/Still_life_logo.jpg");
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

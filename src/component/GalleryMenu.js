@@ -1,10 +1,13 @@
 import { SRLWrapper } from "simple-react-lightbox";
 import React from "react";
-import personn from '../images/personn.jpg';
 import travel from '../images/travel.jpg';
-import portrait from '../images/portrait.jpg';
-import accueil from '../images/accueil.jpg';
-import stilllife from '../images/stilllife.jpg';
+import Portrait from '../images/Portrait.jpg';
+import contact from '../images/contact.jpg';
+import Still_life from '../images/Still_life.jpg';
+import travel_logo from '../images/travel_logo.jpg';
+import Portrait_logo from '../images/Portrait_logo.jpg';
+import contact_logo from '../images/contact_logo.jpg';
+import Still_life_logo from '../images/Still_life_logo.jpg';
 import Layout from "../Layout";
 import './GalleryMenu.css';
 
@@ -33,15 +36,15 @@ const GalleryMenu = () => {
             <SRLWrapper  style={options} >
 
                 <div className="container-img">
-                <a href='../images/portrait.jpg'>
-                    <img onContextMenu={(e)=> e.preventDefault()} style={imageStyle} src={portrait}  />
+                <a href={Portrait}>
+                    <img onContextMenu={(e)=> e.preventDefault()} style={imageStyle} src={Portrait}  />
                 </a>
                 </div>
 
                 <br/>
                 <div onContextMenu={(e)=> e.preventDefault()}  className="container-img">
-                <a href={stilllife}>
-                    <img style={imageStyle} src={stilllife} onContextMenu={false}/>
+                <a href={Still_life}>
+                    <img style={imageStyle} src={Still_life} onContextMenu={false}/>
                 </a>
                 </div>
                 <br/>
@@ -55,9 +58,13 @@ const GalleryMenu = () => {
 
 
                 <div  onContextMenu={(e)=> e.preventDefault()} className="container-img">
-                <a href={accueil}>
-                    <img  style={imageStyle} src={accueil} onContextMenu={false}/>
+                <a href={contact_logo}>
+                    <img  style={imageStyle} src={contact_logo} onContextMenu={false}/>
                 </a>
+                </div>
+
+                <div className="testHoover">
+
                 </div>
             </SRLWrapper>
         </Layout>
