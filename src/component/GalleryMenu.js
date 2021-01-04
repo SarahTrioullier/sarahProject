@@ -14,7 +14,8 @@ const options = {
     caption: {
         captionColor: "#a6cfa5",
         marginLeft: '3em',
-        marginTop: '300px'
+        marginTop: '300px',
+        cursor: "pointer"
     }
 }
 
@@ -33,7 +34,10 @@ const GalleryMenu = () => {
         <Layout>
             <SRLWrapper  style={options} >
                 <div className="portrait">
-<div className="legendPortrait" style={legend}> Test </div>
+<div className="legendPortrait" >  </div>
+                </div>
+                <div className="portrait_hover">
+                    <div className="legendPortrait" > Test </div>
                 </div>
                 <div className="stilllife">
                     <div className="legendPortrait"></div>

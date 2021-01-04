@@ -8,6 +8,7 @@
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 .portrait:hover{
@@ -19,7 +20,23 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.legendPortrait{
+    font-family: 'HelveticaNeueUltraLight';
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    color: transparent;
+    cursor: pointer;
+}
 
+
+.legendPortrait:hover {
+    font-family: 'HelveticaNeueUltraLight';
+    font-weight: bold;
+    font-size: large;
+    display: block;
+   color: black;
+}
 
 
 .stilllife
@@ -35,6 +52,7 @@
     text-align: center;
     justify-content: center;
     display: flex;
+    cursor: pointer;
 }
 
 .stilllife:hover{
@@ -57,6 +75,7 @@
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 .travel:hover{
@@ -67,6 +86,7 @@
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+
 }
 
 .contact
@@ -78,6 +98,7 @@
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 
 .contact:hover{
@@ -89,3 +110,4 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+

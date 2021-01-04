@@ -10,7 +10,8 @@ const phantomStyle = {
     height: "260px",
     width: "100%",
     textAlign: "center",
-marginTop: "auto"
+marginTop: "auto",
+    cursor: "pointer"
 };
 
 
