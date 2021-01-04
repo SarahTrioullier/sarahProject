@@ -11,16 +11,24 @@ const phantomStyle = {
     width: "100%",
     textAlign: "center",
 marginTop: "auto",
-    cursor: "pointer"
+    cursor: "pointer",
+    zIndex: 3
 };
 
 
 const logoStyle = {
+
     color: "black",
     fontFamily: 'HelveticaNeueUltraLight',
     fontSize: "6em",
-    textAlign: "center"
+    textAlign: "center",
+    zIndex: 3
+
 };
+
+const header = {
+    zIndex: 1
+}
 
 function HelveticaMenu() {
 
