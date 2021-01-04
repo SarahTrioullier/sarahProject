@@ -21,7 +21,7 @@
     display: none;
     position: absolute;
     background-color: transparent;
-    margin: 0;
+margin: 0;
     z-index: 99999;
     text-align: center;
     font-family: 'HelveticaNeueUltraLight';
@@ -34,6 +34,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 
 }
 
@@ -84,6 +85,7 @@
     font-size: 16px;
     border: none;
     align-items: center;
+
 }
 
 .dropdown {

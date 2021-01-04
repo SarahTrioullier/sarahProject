@@ -11,6 +11,8 @@ import stilllife from '../images/stilllife.jpg';
 import still_life_logo from '../images/Still_life_logo.jpg';
 import Layout from "../Layout";
 import './GalleryMenu.css';
+import instagram from "../images/instagram.png";
+import {MDBContainer} from "mdbreact";
 
 const options = {
 
@@ -89,7 +91,10 @@ const GalleryMenu = () => {
                     </div>
                     <div className=" hover _b0 ">
                         <img className=" image _ay " src={accueil_logo} alt="Contact legend"/>
-                        <div className=" text _2 ">Sarah Triouillier
+                        <div className=" textcontact _2 "><div><a style={{ fontFamily: 'HelveticaNeueUltraLight', color: "black", textDecoration: "none" }} href= "sarahtrioullier@gmail.com" > sarahtrioullier@gmail.com</a></div>
+                            <a  href="https://www.instagram.com/sarah_trioullier/" style={{marginLeft: "0.8em", color: "black", textDecoration: "none" }} className="navbar-brand">
+                                <img data-v-d6b74ff0="" data-v-39e892d4="" src={instagram} height="20" alt=""/> SarahTrioullier
+                            </a>
                         </div>
                     </div>
                 </a></div>
