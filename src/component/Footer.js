@@ -21,7 +21,8 @@ const phantomStyle = {
     display: "block",
     padding: "20px",
     height: "30px",
-    width: "100%"
+    width: "100%",
+    cursor: "pointer"
 };
 
 
@@ -32,7 +33,7 @@ function Footer() {
         <div style={phantomStyle} />
         <div style={footerStyle}>
         <div className="footer-copyright text-center py-3">
-            <MDBContainer fluid>
+            <MDBContainer fluid style={{cursor: "pointer"}}>
                 &copy; {new Date().getFullYear()} Copyright SarahTrioullier
 
                     <a data-v-39e892d4="" href="https://www.instagram.com/sarah_trioullier/" style={{marginLeft: "0.8em" }} className="navbar-brand">
