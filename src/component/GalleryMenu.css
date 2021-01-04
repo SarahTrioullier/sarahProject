@@ -19,23 +19,35 @@
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    content: "Portrait";
+
+
 }
 .legendPortrait{
-    font-family: 'HelveticaNeueUltraLight';
-    font-weight: bold;
-    font-size: large;
-    display: block;
     color: transparent;
-    cursor: pointer;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
 }
 
 
 .legendPortrait:hover {
     font-family: 'HelveticaNeueUltraLight';
-    font-weight: bold;
-    font-size: large;
-    display: block;
-   color: black;
+    color: black;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 
@@ -111,3 +123,62 @@
     margin-bottom: 60px;
 }
 
+/********* Hover image et texte *******/
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+    position: relative;
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* Image originale */
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Texte original */
+.overlay-image .text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/********* Hover image et texte *******/
+/* Overlay */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+    opacity: 1;
+}
+
+/********* Hover background et texte uniquement *******/
+.overlay-image .normal {
+    transition: .5s ease;
+}
+.overlay-image:hover .normal {
+    opacity: 0;
+}
+.overlay-image .hover {
+
+}
