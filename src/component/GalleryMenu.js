@@ -9,10 +9,10 @@ import accueil from '../images/contact_logo.jpg';
 import accueil_logo from '../images/contact.jpg';
 import stilllife from '../images/Still_life.jpg';
 import still_life_logo from '../images/Still_life_logo.jpg';
-import Layout from "../Layout";
 import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import {MDBContainer} from "mdbreact";
+import LayoutHeader from "./LayoutHeader";
 
 const options = {
 
@@ -36,7 +36,7 @@ fontSize: 'large',
 
 const GalleryMenu = () => {
     return (
-        <Layout>
+        <LayoutHeader>
             <SRLWrapper  style={options} >
 
                 {/* Test  overlay */}
@@ -100,7 +100,7 @@ const GalleryMenu = () => {
                 </a></div>
 
             </SRLWrapper>
-        </Layout>
+        </LayoutHeader>
     );
 }
 
