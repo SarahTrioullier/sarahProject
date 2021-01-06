@@ -1,4 +1,4 @@
-import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import React from "react";
 import travel_logo from '../images/travel_logo.jpg';
 import travelde from '../images/travel_N9A9788.jpg';
@@ -11,6 +11,7 @@ import still_life_logo from '../images/Still_life_logo.jpg';
 import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import LayoutHeader from "./LayoutHeader";
+import PortraitGallery from "./s_component/Portrait_Gallery";
 
 const options = {
 
@@ -36,8 +37,8 @@ const GalleryMenu = () => {
     return (
         <LayoutHeader>
 
-            <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portrait"/>
-                <img className=" image _ay " src={portrait} alt="Portrait"/>
+            <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portrait">
+                <img  className=" image _ay " src={portrait} alt="Portrait"/>
                 <div className=" normal _b1 ">
                     <div className=" text _2 ">
                     </div>
@@ -47,29 +48,13 @@ const GalleryMenu = () => {
                     <div className=" text _2 ">Portrait
                     </div>
                 </div>
-            </div>
-
-            <SRLWrapper  style={options} >
-
-                {/* Test  overlay */}
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portait">
-                    <img className=" image _ay " src={portrait} alt="Portrait"/>
-                    <div className=" normal _b1 ">
-                        <div className=" text _2 ">
-                        </div>
-                    </div>
-                    <div className=" hover _b0 ">
-                        <img className=" image _ay " src={portraitlogo} alt="Portrait legend"/>
-                        <div className=" text _2 ">Portrait
-                        </div>
-                    </div>
-                </a></div>
-
-                {/* Test  overlay */}
+            </a> </div>
 
 
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={portrait}>
+
+
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/stillLife">
                     <img className=" image _ay " src={stilllife} alt="StillLife"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
@@ -95,7 +80,7 @@ const GalleryMenu = () => {
                     </div>
                 </a></div>
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={accueil}>
+                <div id="contact" onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={accueil}>
                     <img className=" image _ay " src={accueil} alt="Contact"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
@@ -111,7 +96,7 @@ const GalleryMenu = () => {
                     </div>
                 </a></div>
 
-            </SRLWrapper>
+
         </LayoutHeader>
     );
 }

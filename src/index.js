@@ -8,14 +8,25 @@ import Footer from "./component/Footer";
 import './fonts/Photograph Signature.ttf';
 import './fonts/Impact Label.ttf';
 import PortraitGallery from "./component/s_component/Portrait_Gallery";
+import GalleryMenu from "./component/GalleryMenu";
+import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 const routing = (
     <Router>
-        <Switch>
-
+<Switch>
             <Route path="/portrait">
                 <PortraitGallery />
             </Route>
-        </Switch>
+    <Route path="/stillLife">
+        <StillLifeGallery />
+        </Route>
+    <Route path="/gallery">
+        <GalleryMenu />
+    </Route>
+        <Route path="/">
+            <App />
+        </Route>
+
+</Switch>
         <Footer />
 
     </Router>

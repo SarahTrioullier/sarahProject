@@ -2,6 +2,7 @@ import {SRLWrapper} from "simple-react-lightbox";
 import { BrowserRouter as Router } from 'react-router-dom';
 import alison from "../../images/CompressionPortrait/ALISONCompress063.jpg";
 import capture64 from "../../images/CompressionPortrait/Capture-064.jpg";
+import './Portrait_Gallery.css';
 
 import Layout from "../../Layout";
 
@@ -10,14 +11,14 @@ const PortraitGallery = () => {
 
         <Router>
         <Layout>
-    <SRLWrapper>
+    <SRLWrapper >
 
-<div >
-    <img  style={{width: "1000px", height: "1525px"}} src={alison} alt="Alison"/>
+<div className="imageP">
+    <img  style={{marginTop: '200px', width: "912px", height: "1140px"}} src={alison} alt="Alison"/>
 </div>
 
-        <div >
-            <img style={{width: "1000px", height: "1525px"}} src={capture64} alt="Capture"/>
+        <div className="imageP" >
+            <img style={{width: "600px", height: "750px"}} src={capture64} alt="Capture"/>
         </div>
     </SRLWrapper>
         </Layout>

@@ -38,28 +38,25 @@ function HelveticaMenu() {
                 <MDBNavbar className="header" style={{ backgroundColor: "transparent" }}   dark>
                     <MDBNavbarBrand>
                         <div className="dropdown">
-                        <span className="dropbtn" style={logoStyle}>
+                    <span className="dropbtn" style={logoStyle}>
 SARAHTRIOULLIER
                         </span>
 
                             <div className="dropdown-content">
 
-                                <a className="dropContent " href="/headerImpact" >
+                                <a className="dropContent " href="/portrait" >
                                     Portrait
                                 </a>
 
-                                <a className="dropContent "  href="/" >
+                                <a className="dropContent "  href="/stillLife" >
                                     Still life
                                 </a>
-
-
-
 
                                 <a className="dropContent "  href="/" >
                                     Travel
                                 </a>
 
-                                <a className="dropContent "  href="/" >
+                                <a className="dropContent "  href="/gallery#contact" >
                                     Contact
                                 </a>
 
