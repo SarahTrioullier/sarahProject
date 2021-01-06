@@ -1,6 +1,5 @@
 import { SRLWrapper } from "simple-react-lightbox";
 import React from "react";
-import personn from '../images/personn.jpg';
 import travel_logo from '../images/travel_logo.jpg';
 import travelde from '../images/travel_N9A9788.jpg';
 import portrait from '../images/Portrait.jpg';
@@ -11,7 +10,6 @@ import stilllife from '../images/Still_life.jpg';
 import still_life_logo from '../images/Still_life_logo.jpg';
 import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
-import {MDBContainer} from "mdbreact";
 import LayoutHeader from "./LayoutHeader";
 
 const options = {
@@ -37,10 +35,24 @@ fontSize: 'large',
 const GalleryMenu = () => {
     return (
         <LayoutHeader>
+
+            <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portrait"/>
+                <img className=" image _ay " src={portrait} alt="Portrait"/>
+                <div className=" normal _b1 ">
+                    <div className=" text _2 ">
+                    </div>
+                </div>
+                <div className=" hover _b0 ">
+                    <img className=" image _ay " src={portraitlogo} alt="Portrait legend"/>
+                    <div className=" text _2 ">Portrait
+                    </div>
+                </div>
+            </div>
+
             <SRLWrapper  style={options} >
 
                 {/* Test  overlay */}
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={portrait}>
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portait">
                     <img className=" image _ay " src={portrait} alt="Portrait"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">

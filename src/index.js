@@ -7,19 +7,17 @@ import reportWebVitals from './reportWebVitals';
 import Footer from "./component/Footer";
 import './fonts/Photograph Signature.ttf';
 import './fonts/Impact Label.ttf';
-import Images from "./component/imageTest";
-import HelveticaMenu from "./component/helveticaMenu";
+import PortraitGallery from "./component/s_component/Portrait_Gallery";
 const routing = (
     <Router>
-      <div>
-<App/>
         <Switch>
-            <Route path="/helveticaMenu">
-                <HelveticaMenu />
+
+            <Route path="/portrait">
+                <PortraitGallery />
             </Route>
         </Switch>
         <Footer />
-      </div>
+
     </Router>
 );
 
