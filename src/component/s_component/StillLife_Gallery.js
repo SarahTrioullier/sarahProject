@@ -34,7 +34,7 @@ const StillLifeGallery = () => {
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={NINA_RICCI054} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI054} alt="Capture"/>
                     </div>
 
                     <div className="imageP">
@@ -42,45 +42,45 @@ const StillLifeGallery = () => {
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={NINA_RICCI0313} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI0313} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "1140px"}} src={NINA_RICCI318} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={NINA_RICCI136} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI136} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "1140px"}} src={NINA_RICCI186} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={NINA_RICCI225} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI225} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "1140px"}} src={Baccara62} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={Baccara70} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={Baccara70} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "1140px"}} src={Baccara} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={MJ108} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={MJ108} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "1140px"}} src={M10239} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={st311} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={st311} alt="Capture"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "600px", height: "750px"}} src={st344} alt="Capture"/>
+                        <img style={{width: "912px", height: "1140px"}} src={st344} alt="Capture"/>
                     </div>
 
                 </SRLWrapper>

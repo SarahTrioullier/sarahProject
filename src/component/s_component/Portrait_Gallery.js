@@ -18,7 +18,7 @@ const PortraitGallery = () => {
 </div>
 
         <div className="imageP" >
-            <img style={{width: "600px", height: "750px"}} src={capture64} alt="Capture"/>
+            <img style={{width: "912px", height: "1140px"}} src={capture64} alt="Capture"/>
         </div>
     </SRLWrapper>
         </Layout>
