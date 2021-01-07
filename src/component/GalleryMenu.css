@@ -1,0 +1,203 @@
+
+.portrait
+{
+    background-image: url("../images/Portrait.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.portrait:hover{
+    background-image: url("../images/Portrait_logo.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    content: "Portrait";
+
+
+}
+.legendPortrait{
+    color: transparent;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+
+.legendPortrait:hover {
+    font-family: 'HelveticaNeueUltraLight';
+    color: black;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+.stilllife
+{
+    background-image: url("../images/Still_life.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.stilllife:hover{
+    background-image: url("../images/Still_life_logo.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.travel
+{
+    background-image: url("../images/travel_N9A9788.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.travel:hover{
+    background-image: url("../images/travel_logo.jpg");
+    height: 805px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.contact
+{
+    background-image: url("../images/contact_logo.jpg");
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-image: url("../images/contact.jpg");
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/********* Hover image et texte *******/
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+    position: relative;
+    height: 815px;
+    width: 1006px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+/* Image originale */
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+/* Texte original */
+.overlay-image .text {
+    font-family: 'HelveticaNeueUltraLight';
+    color: black;
+    font-size: 70px;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+.overlay-image .textcontact {
+    font-family: 'HelveticaNeueUltraLight';
+    color: black;
+    font-size: 40px;
+    line-height: 1.5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-decoration: none;
+}
+/********* Hover image et texte *******/
+/* Overlay */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+    opacity: 1;
+
+}
+
+/********* Hover background et texte uniquement *******/
+.overlay-image .normal {
+    transition: .5s ease;
+
+}
+.overlay-image:hover .normal {
+    opacity: 0;
+
+}
+.overlay-image .hover {
+
+}

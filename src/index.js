@@ -3,40 +3,32 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Header from "./component/header";
 import reportWebVitals from './reportWebVitals';
 import Footer from "./component/Footer";
-import HeaderRouge from "./component/headerRouge";
 import './fonts/Photograph Signature.ttf';
 import './fonts/Impact Label.ttf';
-import HeaderImpact from "./component/headerImpact";
-import HeaderWithout from "./component/headerWithOutBand";
-import HeaderWithoutRed from "./component/headerWithoutBandRed";
+import PortraitGallery from "./component/s_component/Portrait_Gallery";
+import GalleryMenu from "./component/GalleryMenu";
+import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 const routing = (
     <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={App} />
-            <Route path="/headerRouge">
-                <HeaderRouge />
+<Switch>
+            <Route path="/portrait">
+                <PortraitGallery />
             </Route>
-            <Route path="/headerJaune">
-                <Header />
-            </Route>
-            <Route path="/headerImpact">
-                <HeaderImpact />
-            </Route>
-            <Route path="/headerWithoutBand">
-                <HeaderWithout />
-                <App/>
-            </Route>
-            <Route path="/headerWithoutRed">
-                <HeaderWithoutRed />
-            </Route>
-        </Switch>
+    <Route path="/stillLife">
+        <StillLifeGallery />
+        </Route>
+    <Route path="/gallery">
+        <GalleryMenu />
+    </Route>
+        <Route path="/">
+            <App />
+        </Route>
 
+</Switch>
         <Footer />
-      </div>
+
     </Router>
 );
 
