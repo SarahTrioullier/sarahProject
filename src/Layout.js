@@ -1,5 +1,6 @@
 import React from "react";
 import HelveticaMenu from "./component/helveticaMenu";
+import Footer from "./component/Footer";
 
 function Layout({ children }) {
     return (
@@ -10,6 +11,7 @@ function Layout({ children }) {
                     <div>{children}</div>
                 </div>
             </main>
+
         </React.Fragment>
     );
 }

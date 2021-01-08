@@ -1,5 +1,5 @@
 import {SRLWrapper} from "simple-react-lightbox";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter  } from 'react-router-dom';
 import alison from "../../images/CompressionPortrait/ALISONCompress063.jpg";
 import capture64 from "../../images/CompressionPortrait/Capture-064.jpg";
 import './Portrait_Gallery.css';
@@ -9,7 +9,7 @@ import Layout from "../../Layout";
 const PortraitGallery = () => {
     return(
 
-        <Router>
+        <BrowserRouter >
         <Layout>
     <SRLWrapper >
 
@@ -22,7 +22,7 @@ const PortraitGallery = () => {
         </div>
     </SRLWrapper>
         </Layout>
-        </Router>
+        </BrowserRouter>
     );
 }
 

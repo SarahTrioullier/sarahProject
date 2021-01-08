@@ -1,5 +1,6 @@
 import React from "react";
 import HelveticaBrand from "./HelveticaBrand";
+import Footer from "./Footer";
 
 function LayoutHeader({ children }) {
     return (
@@ -10,6 +11,7 @@ function LayoutHeader({ children }) {
                     <div >{children}</div>
                 </div>
             </main>
+
         </React.Fragment>
     );
 }

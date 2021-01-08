@@ -12,21 +12,21 @@ import GalleryMenu from "./component/GalleryMenu";
 import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 const routing = (
     <Router>
-<Switch>
+        <Switch>
             <Route path="/portrait">
                 <PortraitGallery />
             </Route>
-    <Route path="/stillLife">
-        <StillLifeGallery />
-        </Route>
-    <Route path="/gallery">
-        <GalleryMenu />
-    </Route>
-        <Route path="/">
-            <App />
-        </Route>
+            <Route path="/stillLife">
+                <StillLifeGallery />
+            </Route>
+            <Route path="/gallery">
+                <GalleryMenu />
+            </Route>
+            <Route path="/">
+                <App />
+            </Route>
 
-</Switch>
+        </Switch>
         <Footer />
 
     </Router>
@@ -35,7 +35,7 @@ const routing = (
 
 ReactDOM.render(
 
-  routing, document.getElementById('root')
+    routing, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
