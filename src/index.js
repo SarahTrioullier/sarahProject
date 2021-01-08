@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {  BrowserRouter , Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,31 +11,31 @@ import PortraitGallery from "./component/s_component/Portrait_Gallery";
 import GalleryMenu from "./component/GalleryMenu";
 import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 const routing = (
-    <BrowserRouter>
-<Switch>
-            <BrowserRouter path="/portrait" component={PortraitGallery}>
+    <Router>
+        <Switch>
+            <Route path="/portrait">
                 <PortraitGallery />
-            </BrowserRouter>
-    <BrowserRouter path="/stillLife" component={StillLifeGallery}>
-        <StillLifeGallery />
-        </BrowserRouter>
-    <BrowserRouter path="/gallery">
-        <GalleryMenu />
-    </BrowserRouter>
-        <BrowserRouter path="/">
-            <App />
-        </BrowserRouter>
+            </Route>
+            <Route path="/stillLife">
+                <StillLifeGallery />
+            </Route>
+            <Route path="/gallery">
+                <GalleryMenu />
+            </Route>
+            <Route path="/">
+                <App />
+            </Route>
 
-</Switch>
+        </Switch>
         <Footer />
 
-    </BrowserRouter>
+    </Router>
 );
 
 
 ReactDOM.render(
 
-  routing, document.getElementById('root')
+    routing, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

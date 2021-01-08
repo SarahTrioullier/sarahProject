@@ -25,7 +25,7 @@ import './StillLife_Gallery.css';
 const StillLifeGallery = () => {
     return(
 
-        <Router basename="/sarahProject">
+        <Router>
             <Layout>
                 <SRLWrapper >
 
