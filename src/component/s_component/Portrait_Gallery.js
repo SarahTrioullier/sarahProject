@@ -9,7 +9,7 @@ import Layout from "../../Layout";
 const PortraitGallery = () => {
     return(
 
-        <Router>
+        <Router basename="/sarahProject">
         <Layout>
     <SRLWrapper >
 
