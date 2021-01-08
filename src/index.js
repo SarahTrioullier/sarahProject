@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import {  BrowserRouter , Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,25 +11,25 @@ import PortraitGallery from "./component/s_component/Portrait_Gallery";
 import GalleryMenu from "./component/GalleryMenu";
 import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 const routing = (
-    <Router>
+    <BrowserRouter>
 <Switch>
-            <Route path="/portrait">
+            <BrowserRouter path="/portrait" component={PortraitGallery}>
                 <PortraitGallery />
-            </Route>
-    <Route path="/stillLife">
+            </BrowserRouter>
+    <BrowserRouter path="/stillLife" component={StillLifeGallery}>
         <StillLifeGallery />
-        </Route>
-    <Route path="/gallery">
+        </BrowserRouter>
+    <BrowserRouter path="/gallery">
         <GalleryMenu />
-    </Route>
-        <Route path="/">
+    </BrowserRouter>
+        <BrowserRouter path="/">
             <App />
-        </Route>
+        </BrowserRouter>
 
 </Switch>
         <Footer />
 
-    </Router>
+    </BrowserRouter>
 );
 
 
