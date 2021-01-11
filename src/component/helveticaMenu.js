@@ -1,8 +1,10 @@
 import React from "react";
 import { MDBNavbar, MDBNavbarBrand } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
+import {BrowserRouter as Router, Link, NavLink, Route} from 'react-router-dom';
 import '@szhsin/react-menu/dist/index.css';
 import './helveticaMenu.css';
+import GalleryMenu from "./GalleryMenu";
+import PortraitGallery from "./s_component/Portrait_Gallery";
 
 const phantomStyle = {
     position: "fixed",
@@ -43,7 +45,11 @@ SARAHTRIOULLIER
                         </span>
 
                             <div className="dropdown-content">
-
+                                <Link  className="dropContent " to='/'>Home</Link>
+                                <a className="dropContent " href="/" >
+                                    Home
+                                </a>
+                                <Link  className="dropContent " to='/portrait'>Portrait</Link>
                                 <a className="dropContent " href="/portrait" >
                                     Portrait
                                 </a>
@@ -59,7 +65,6 @@ SARAHTRIOULLIER
                                 <a className="dropContent "  href="/gallery#contact" >
                                     Contact
                                 </a>
-
 
 
                             </div>

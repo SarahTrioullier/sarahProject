@@ -12,6 +12,7 @@ import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import LayoutHeader from "./LayoutHeader";
 import PortraitGallery from "./s_component/Portrait_Gallery";
+import {Route} from "react-router-dom";
 
 const options = {
 
@@ -36,6 +37,7 @@ fontSize: 'large',
 const GalleryMenu = () => {
     return (
         <LayoutHeader>
+
 
             <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portrait">
                 <img  className=" image _ay " src={portrait} alt="Portrait"/>

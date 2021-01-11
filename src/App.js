@@ -4,19 +4,23 @@ import SimpleReactLightbox from "simple-react-lightbox";
 import '@szhsin/react-menu/dist/index.css';
 import GalleryMenu from "./component/GalleryMenu";
 import Switch from "react-bootstrap/Switch";
-import { BrowserRouter as Route } from 'react-router-dom';
+import {BrowserRouter, BrowserRouter as Router, BrowserRouter as Route} from 'react-router-dom';
 import PortraitGallery from "./component/s_component/Portrait_Gallery";
 import StillLifeGallery from "./component/s_component/StillLife_Gallery";
-class App extends Component {
-    render() {
-        return (
-            <SimpleReactLightbox>
-                <div style={{height: '2em'}}></div>
-                <GalleryMenu/>
-            </SimpleReactLightbox>
-        );
-    }
-}
+import Footer from "./component/Footer";
+import Main from "./component/Main";
+import Header from "./component/Header";
+import HelveticaMenu from "./component/helveticaMenu";
+import Home from "./component/Home";
+
+const App = () => (
+    <div>
+        <Header/>
+        <HelveticaMenu />
+        <Home />
+    </div>
+)
+
+export default App
 
 
-export default App;
