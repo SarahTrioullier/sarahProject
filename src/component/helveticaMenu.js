@@ -45,11 +45,11 @@ SARAHTRIOULLIER
                         </span>
 
                             <div className="dropdown-content">
-                                <Link  className="dropContent " to='/'>Home</Link>
+
                                 <a className="dropContent " href="/" >
                                     Home
                                 </a>
-                                <Link  className="dropContent " to='/portrait'>Portrait</Link>
+
                                 <a className="dropContent " href="/portrait" >
                                     Portrait
                                 </a>
