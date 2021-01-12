@@ -44,6 +44,10 @@ SARAHTRIOULLIER
 
                             <div className="dropdown-content">
 
+                                <a className="dropContent " href="/" >
+                                    Home
+                                </a>
+
                                 <a className="dropContent " href="/portrait" >
                                     Portrait
                                 </a>
