@@ -30,57 +30,57 @@ const StillLifeGallery = () => {
                 <SRLWrapper >
 
                     <div className="imageP">
-                        <img  style={{ marginTop: '200px', width: "912px", height: "1140px"}} src={NINA_RICCI016} alt="Alison"/>
+                        <img  style={{ marginTop: '200px', width: "612px", height: "526px"}} src={NINA_RICCI016} alt="NINA_RICCI016"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI054} alt="Capture"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={NINA_RICCI054} alt="Capture"/>
                     </div>
 
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={NINA_RICCI062} alt="Alison"/>
+                        <img  style={{  width: "612px", height: "774.68px"}} src={NINA_RICCI062} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI0313} alt="Capture"/>
+                        <img style={{width: "612px", height: "490px"}} src={NINA_RICCI0313} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={NINA_RICCI318} alt="Alison"/>
+                        <img  style={{  width: "712px", height: "569.6px"}} src={NINA_RICCI318} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI136} alt="Capture"/>
+                        <img style={{width: "612px", height: "927.27px"}} src={NINA_RICCI136} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={NINA_RICCI186} alt="Alison"/>
+                        <img  style={{  width: "612px", height: "927.27px"}} src={NINA_RICCI186} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={NINA_RICCI225} alt="Capture"/>
+                        <img style={{width: "612px", height: "927.27px"}} src={NINA_RICCI225} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={Baccara62} alt="Alison"/>
+                        <img  style={{  width: "912px", height: "412.66px"}} src={Baccara62} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={Baccara70} alt="Capture"/>
+                        <img style={{width: "912px", height: "412.66px"}} src={Baccara70} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={Baccara} alt="Alison"/>
+                        <img  style={{  width: "912px", height: "412.66px"}} src={Baccara} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={MJ108} alt="Capture"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={MJ108} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "912px", height: "1140px"}} src={M10239} alt="Alison"/>
+                        <img  style={{  width: "812px", height: "541.33px"}} src={M10239} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={st311} alt="Capture"/>
+                        <img style={{width: "712px", height: "570px"}} src={st311} alt="Capture"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "912px", height: "1140px"}} src={st344} alt="Capture"/>
+                        <img style={{width: "512px", height: "775.75px"}} src={st344} alt="Capture"/>
                     </div>
 
                 </SRLWrapper>

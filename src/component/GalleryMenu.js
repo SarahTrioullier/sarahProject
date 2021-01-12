@@ -39,7 +39,7 @@ const GalleryMenu = () => {
         <LayoutHeader>
 
 
-            <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portrait">
+            <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/roster">
                 <img  className=" image _ay " src={portrait} alt="Portrait"/>
                 <div className=" normal _b1 ">
                     <div className=" text _2 ">
@@ -56,7 +56,7 @@ const GalleryMenu = () => {
 
 
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/stillLife">
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/schedule">
                     <img className=" image _ay " src={stilllife} alt="StillLife"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
@@ -69,7 +69,7 @@ const GalleryMenu = () => {
                     </div>
                 </a></div>
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={travelde}>
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/galleryTravel">
                     <img className=" image _ay " src={travelde} alt="Travel"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
