@@ -67,7 +67,7 @@ const GalleryMenu = () => {
                     </div>
                 </a></div>
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={travelde}>
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/galleryTravel">
                     <img className=" image _ay " src={travelde} alt="Travel"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">

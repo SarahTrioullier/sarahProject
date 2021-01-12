@@ -56,7 +56,7 @@ SARAHTRIOULLIER
                                     Still life
                                 </a>
 
-                                <a className="dropContent "  href="/" >
+                                <a className="dropContent "  href="/galleryTravel" >
                                     Travel
                                 </a>
 
