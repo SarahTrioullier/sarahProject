@@ -44,6 +44,10 @@ SARAHTRIOULLIER
 
                             <div className="dropdown-content">
 
+                                <a className="dropContent " href="/" >
+                                    Home
+                                </a>
+
                                 <a className="dropContent " href="/portrait" >
                                     Portrait
                                 </a>
@@ -52,7 +56,7 @@ SARAHTRIOULLIER
                                     Still life
                                 </a>
 
-                                <a className="dropContent "  href="/" >
+                                <a className="dropContent "  href="/galleryTravel" >
                                     Travel
                                 </a>
 

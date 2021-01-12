@@ -5,11 +5,14 @@ import Footer from "./component/Footer";
 function Layout({ children }) {
     return (
         <React.Fragment>
+
             <HelveticaMenu />
+
             <main >
-                <div >
-                    <div>{children}</div>
-                </div>
+
+
+                    <div >{children}</div>
+
             </main>
 
         </React.Fragment>
