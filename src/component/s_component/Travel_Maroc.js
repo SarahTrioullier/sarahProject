@@ -1,4 +1,3 @@
-import NINA_RICCI016 from "../../images/Still life/Still life/NINA_RICCI-016.jpg";
 import {SRLWrapper} from "simple-react-lightbox";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Layout from "../../Layout";
@@ -21,7 +20,7 @@ const TravelMaroc = () => {
 
     <Layout>
         <SRLWrapper>
-      <div className="imageP">
+      <div onContextMenu={(e)=> e.preventDefault()} className="imageP">
           <img  style={{ marginTop: '200px', width: "612px", height: "526px"}} src={Maroc003} alt="Maroc003"/>
       </div>
             <div className="imageP">

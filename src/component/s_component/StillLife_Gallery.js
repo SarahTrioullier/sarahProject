@@ -30,7 +30,7 @@ const StillLifeGallery = () => {
                 <SRLWrapper >
 
                     <div className="imageP">
-                        <img  style={{ marginTop: '200px', width: "612px", height: "526px"}} src={NINA_RICCI016} alt="NINA_RICCI016"/>
+                        <img  style={{ marginTop: '200px', width: "656px", height: "526px"}} src={NINA_RICCI016} alt="NINA_RICCI016"/>
                     </div>
 
                     <div className="imageP" >

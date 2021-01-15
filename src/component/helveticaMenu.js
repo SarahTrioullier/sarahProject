@@ -26,9 +26,7 @@ const logoStyle = {
 
 };
 
-const header = {
-    zIndex: 1
-}
+
 
 function HelveticaMenu() {
 

@@ -1,31 +1,16 @@
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import  { SRLWrapper } from "simple-react-lightbox";
 import React from "react";
 import travel_logo from '../images/travel_logo.jpg';
 import travelde from '../images/travel_N9A9788.jpg';
 import './GalleryMenu.css';
 import Maroc0211 from '../images/Travel/MAROC-021 1.jpg'
-import Maroc022 from '../images/Travel/MAROC-022.jpg'
-import Maroc025 from '../images/Travel/MAROC-025.jpg'
-import Maroc0251 from '../images/Travel/MAROC-025 1.jpg'
+
+
+import MYAJIMA_01 from '../images/Travel/Japon/Tokyo/MYAJIMA_01.jpg'
+
 import Layout from "../Layout";
 import { BrowserRouter as Router } from 'react-router-dom';
-const options = {
 
-    caption: {
-        captionColor: "#a6cfa5",
-        marginLeft: '3em',
-        marginTop: '300px',
-        cursor: "pointer",
-    }
-}
-
-const legend = {
-
-    fontFamily: 'HelveticaNeueUltraLight',
-    fontWeight: 'bold',
-    fontSize: 'large',
-
-}
 
 
 
@@ -54,15 +39,15 @@ const GalleryTravel = () => {
 
 
 
-            <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/stillLife">
-                <img className=" image _ay " src={Maroc022} alt="Maroc022"/>
+            <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/japonGallery">
+                <img className=" image _ay " src={MYAJIMA_01} alt="MYAJIMA_01"/>
                 <div className=" normal _b1 ">
                     <div className=" text _2 ">
                     </div>
                 </div>
                 <div className=" hover _b0 ">
-                    <img className=" image _ay " src={Maroc022} alt="Portrait legend"/>
-                    <div className=" text _2 ">Travel 2
+                    <img className=" image _ay " src={MYAJIMA_01} alt="MYAJIMA_01"/>
+                    <div className=" text _2 ">Japon
                     </div>
                 </div>
             </a></div>

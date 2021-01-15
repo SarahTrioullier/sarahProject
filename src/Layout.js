@@ -1,21 +1,18 @@
 import React from "react";
 import HelveticaMenu from "./component/helveticaMenu";
-import Footer from "./component/Footer";
 
 function Layout({ children }) {
     return (
-        <React.Fragment>
-
+        <div>
             <HelveticaMenu />
 
-            <main >
-
+            <main style={{paddingTop: '60px'}}>
 
                     <div >{children}</div>
 
             </main>
 
-        </React.Fragment>
+        </div>
     );
 }
 

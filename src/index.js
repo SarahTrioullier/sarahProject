@@ -12,6 +12,9 @@ import GalleryMenu from "./component/GalleryMenu";
 import StillLifeGallery from "./component/s_component/StillLife_Gallery";
 import GalleryTravel from "./component/GalleryTravel";
 import TravelMaroc from "./component/s_component/Travel_Maroc";
+import JaponGallery from "./component/s_component/Japon_Gallery";
+import Japon from "./component/s_component/Japon";
+import Japon_NB from "./component/s_component/Japon_NB";
 const routing = (
     <BrowserRouter>
 <Switch>
@@ -31,6 +34,15 @@ const routing = (
         </BrowserRouter>
     <BrowserRouter path="/gallery">
         <GalleryMenu />
+    </BrowserRouter>
+    <BrowserRouter path="/japonGallery">
+        <JaponGallery />
+    </BrowserRouter>
+    <BrowserRouter path="/japon">
+        <Japon />
+    </BrowserRouter>
+    <BrowserRouter path="/japonNb">
+        <Japon_NB />
     </BrowserRouter>
         <BrowserRouter path="/">
             <App />

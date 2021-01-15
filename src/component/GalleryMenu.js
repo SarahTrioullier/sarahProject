@@ -1,4 +1,4 @@
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+
 import React from "react";
 import travel_logo from '../images/travel_logo.jpg';
 import travelde from '../images/travel_N9A9788.jpg';
@@ -11,25 +11,7 @@ import still_life_logo from '../images/Still_life_logo.jpg';
 import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import LayoutHeader from "./LayoutHeader";
-import PortraitGallery from "./s_component/Portrait_Gallery";
 
-const options = {
-
-    caption: {
-        captionColor: "#a6cfa5",
-        marginLeft: '3em',
-        marginTop: '300px',
-        cursor: "pointer",
-    }
-}
-
-const legend = {
-
-fontFamily: 'HelveticaNeueUltraLight',
-fontWeight: 'bold',
-fontSize: 'large',
-
-}
 
 
 
