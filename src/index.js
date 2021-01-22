@@ -15,6 +15,12 @@ import TravelMaroc from "./component/s_component/Travel_Maroc";
 import JaponGallery from "./component/s_component/Japon_Gallery";
 import Japon from "./component/s_component/Japon";
 import Japon_NB from "./component/s_component/Japon_NB";
+import Fahrenheit from "./component/s_component/Fahrenheit";
+import Alison from "./component/s_component/Alison";
+import Adelaide from "./component/s_component/Adelaide";
+import Yamee from "./component/s_component/Yamee";
+import Portrait_Untitled from "./component/s_component/Portrait_Untitled";
+import Ischia from "./component/s_component/Ischia";
 const routing = (
     <BrowserRouter>
 <Switch>
@@ -44,6 +50,35 @@ const routing = (
     <BrowserRouter path="/japonNb">
         <Japon_NB />
     </BrowserRouter>
+
+    <BrowserRouter path="/fareinheit">
+        <Fahrenheit />
+    </BrowserRouter>
+    <BrowserRouter path="/alison">
+        <Alison />
+    </BrowserRouter>
+    <BrowserRouter path="/adelaide">
+        <Adelaide />
+    </BrowserRouter>
+    <BrowserRouter path="/adelintheaire">
+        <Adelaide />
+    </BrowserRouter>
+    <BrowserRouter path="/yamee">
+        <Yamee />
+    </BrowserRouter>
+    <BrowserRouter path="/portraitUntitled">
+        <Portrait_Untitled />
+    </BrowserRouter>
+    <BrowserRouter path="/ischia">
+        <Ischia />
+    </BrowserRouter>
+
+
+
+
+
+
+
         <BrowserRouter path="/">
             <App />
         </BrowserRouter>
