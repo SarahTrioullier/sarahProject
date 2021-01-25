@@ -8,12 +8,11 @@ import Maroc009 from '../../images/Travel/Maroc/MAROC-009.jpg'
 import Maroc012 from '../../images/Travel/Maroc/MAROC-012.jpg'
 import Maroc013 from '../../images/Travel/Maroc/MAROC-013.jpg'
 import Maroc0131 from '../../images/Travel/Maroc/MAROC-013 1.jpg'
-import Maroc021 from '../../images/Travel/Maroc/MAROC-021.jpg'
 import Maroc0211 from '../../images/Travel/Maroc/MAROC-021 1.jpg'
 import Maroc022 from '../../images/Travel/Maroc/MAROC-022.jpg'
 import Maroc025 from '../../images/Travel/Maroc/MAROC-025.jpg'
 import Maroc0251 from '../../images/Travel/Maroc/MAROC-025 1.jpg'
-
+import Maroc021 from '../../images/Travel/Maroc/MAROC-021.jpg'
 const TravelMaroc = () => {
   return  (
 <Router>

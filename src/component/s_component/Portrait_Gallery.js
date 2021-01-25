@@ -1,8 +1,5 @@
 import {SRLWrapper} from "simple-react-lightbox";
 import { BrowserRouter  } from 'react-router-dom';
-import './Portrait_Gallery.css';
-import '../GalleryMenu.css';
-
 import N9A7841 from '../../images/Portrait/Fahrenheit 21/_N9A7841.jpg'
 import Alison218 from '../../images/Portrait/NATAL/ALISON-218.jpg'
 import mario from '../../images/Portrait/Portrait_Untitled/mario.jpg'
@@ -16,7 +13,6 @@ import Adelaide1315Logo from '../../images/logo/ADELAIDE_KLRP1315.jpg'
 import AdelaidMontaLogo from '../../images/logo/ADELAIDE_KLRP_MONTA-03.jpg'
 import FS778Logo from '../../images/logo/FRANCK_SORBIER_778.jpg'
 import marioLogo from '../../images/logo/mario.jpg'
-
 
 import Layout from "../../Layout";
 
@@ -60,21 +56,21 @@ const PortraitGallery = () => {
             </div>
         </a></div>
 
-        <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portraitUntitled">
-            <img className=" image _ay " src={mario} alt="MYAJIMA_01"/>
+        <div  style={{marginBottom: '20px', width : '900px', height: '1125px'}} onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portraitUntitled">
+            <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={mario} alt="MYAJIMA_01"/>
             <div className=" normal _b1 ">
                 <div className=" text _2 ">
                 </div>
             </div>
             <div className=" hover _b0 ">
-                <img className=" image _ay " src={marioLogo} alt="marioLogo"/>
-                <div className=" text _2 ">Untitled
+                <img style={{marginBottom: '20px', width : '900px', height: '1125px'}}  className=" image _ay " src={marioLogo} alt="Alison218Logo"/>
+                <div className=" text _2 ">Mario
                 </div>
             </div>
         </a></div>
-<div></div>
-        <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/adelaide">
-            <img className=" image _ay " src={Adelaide1315} alt="Travel"/>
+
+        <div style={{marginTop: '20px'}}  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/adelaide">
+            <img style={{marginTop: '20px'}} className=" image _ay " src={Adelaide1315} alt="Travel"/>
             <div className=" normal _b1 ">
                 <div className=" text _2 ">
                 </div>
@@ -86,20 +82,20 @@ const PortraitGallery = () => {
             </div>
         </a></div>
 
-        <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/adelintheaire">
-            <img className=" image _ay " src={monte03} alt="Travel"/>
+        <div style={{marginBottom: '20px'}} onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/adelintheaire">
+            <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={monte03} alt="Travel"/>
             <div className=" normal _b1 ">
                 <div className=" text _2 ">
                 </div>
             </div>
             <div className=" hover _b0 ">
-                <img className=" image _ay " src={AdelaidMontaLogo} alt="AdelaidMontaLogo legend"/>
+                <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={AdelaidMontaLogo} alt="AdelaidMontaLogo legend"/>
                 <div className=" text _2 ">Adelaide Monta
                 </div>
             </div>
         </a></div>
 
-        <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/yamee">
+        <div style={{marginTop: '20px'}}  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/yamee">
             <img className=" image _ay " src={FS778} alt="Travel"/>
             <div className=" normal _b1 ">
                 <div className=" text _2 ">
@@ -111,6 +107,7 @@ const PortraitGallery = () => {
                 </div>
             </div>
         </a></div>
+
 
 
     </SRLWrapper>

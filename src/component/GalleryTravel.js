@@ -7,6 +7,8 @@ import Maroc009 from '../images/Travel/Maroc/MAROC-009.jpg'
 import MarocLogo from '../images/logo/MAROC-009.jpg'
 import MYAJIMA_01 from '../images/Travel/Japon/Tokyo/MYAJIMA_01.jpg'
 import Ischia20 from '../images/Travel/ischia/ISCHIA_20.jpg'
+import IschiaLogo from '../images/logo/ISCHIA_20.jpg'
+
 import Layout from "../Layout";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -71,7 +73,7 @@ const GalleryTravel = () => {
                     </div>
                 </div>
                 <div className=" hover _b0 ">
-                    <img className=" image _ay " src={travel_logo} alt="Travel legend"/>
+                    <img className=" image _ay " src={IschiaLogo} alt="Travel legend"/>
                     <div className=" text _2 ">Ischia
                     </div>
                 </div>
