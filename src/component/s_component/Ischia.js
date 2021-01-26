@@ -25,55 +25,55 @@ const Ischia = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Ischia_07} alt="Ischia_07"/>
+                        <img style={{width: "712px", height: "560.62px"}} src={Ischia_07} alt="Ischia_07"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Ischia_08} alt="Ischia_08"/>
+                        <img style={{width: "712px", height: "560.62px"}} src={Ischia_08} alt="Ischia_08"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Ischia_20} alt="Ischia_20"/>
+                        <img style={{width: "712px", height: "560.62px"}} src={Ischia_20} alt="Ischia_20"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro011} alt="Repro011"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro011} alt="Repro011"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro013} alt="Repro013"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro013} alt="Repro013"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro018} alt="Repro018"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro018} alt="Repro018"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro020} alt="Repro020"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro020} alt="Repro020"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro038} alt="Repro038"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro038} alt="Repro038"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro043} alt="Repro043"/>
+                        <img style={{width: "712px", height: "264.68px"}} src={Repro043} alt="Repro043"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro045} alt="Repro045"/>
+                        <img style={{width: "712px", height: "238.12px"}} src={Repro045} alt="Repro045"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro048} alt="Repro048"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro048} alt="Repro048"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro062} alt="Repro062"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro062} alt="Repro062"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro073} alt="Repro073"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro073} alt="Repro073"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro075} alt="Repro075"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro075} alt="Repro075"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro077} alt="Repro077"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro077} alt="Repro077"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro078} alt="Repro078"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro078} alt="Repro078"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={Repro085} alt="Repro085"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro085} alt="Repro085"/>
                     </div>
                 </SRLWrapper>
             </Layout>

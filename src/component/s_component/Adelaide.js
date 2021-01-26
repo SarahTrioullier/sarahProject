@@ -15,10 +15,10 @@ const Adelaide = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={K1315} alt="K1315"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={K1315} alt="K1315"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={K1332} alt="K1332"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={K1332} alt="K1332"/>
                     </div>
                     <div className="imageP" >
                         <img style={{width: "512px", height: "775.75px"}} src={K1433} alt="K1433"/>

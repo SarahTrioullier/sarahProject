@@ -12,13 +12,13 @@ const AdelaideInTheAir = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={AMonta03} alt="AMonta03"/>
+                        <img style={{width: "712px", height: "890px"}} src={AMonta03} alt="AMonta03"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={AMonta01} alt="AMonta01"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={AMonta01} alt="AMonta01"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={AMonta02} alt="AMonta02"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={AMonta02} alt="AMonta02"/>
                     </div>
 
                 </SRLWrapper>

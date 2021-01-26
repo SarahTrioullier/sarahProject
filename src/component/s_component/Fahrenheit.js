@@ -15,22 +15,22 @@ const Fahrenheit = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={F110} alt="F110"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={F110} alt="F110"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={F125} alt="F125"/>
+                        <img style={{width: "712px", height: "712px"}} src={F125} alt="F125"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={N7946} alt="N7946"/>
+                        <img style={{width: "712px", height: "515.94px"}} src={N7946} alt="N7946"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={N7841} alt="N7841"/>
+                        <img style={{width: "712px", height: "474.66px"}} src={N7841} alt="N7841"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={N8001} alt="N8001"/>
+                        <img style={{width: "712px", height: "474.66px"}} src={N8001} alt="N8001"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={N8005} alt="N8005"/>
+                        <img style={{width: "712px", height: "474.66px"}} src={N8005} alt="N8005"/>
                     </div>
                 </SRLWrapper>
             </Layout>

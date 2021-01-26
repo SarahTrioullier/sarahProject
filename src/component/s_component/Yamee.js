@@ -18,28 +18,28 @@ const Yamee = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS219} alt="FS219"/>
+                        <img style={{width: "712px", height: "890px"}} src={FS219} alt="FS219"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS229} alt="FS219"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={FS229} alt="FS219"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS518} alt="FS219"/>
+                        <img style={{width: "712px", height: "1062.69px"}} src={FS518} alt="FS219"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS280} alt="FS280"/>
+                        <img style={{width: "712px", height: "890px"}} src={FS280} alt="FS280"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS482} alt="FS482"/>
+                        <img style={{width: "712px", height: "890px"}} src={FS482} alt="FS482"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS504} alt="FS504"/>
+                        <img style={{width: "712px", height: "890px"}} src={FS504} alt="FS504"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS600} alt="FS600"/>
+                        <img style={{width: "712px", height: "474.66px"}} src={FS600} alt="FS600"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={FS778} alt="FS219"/>
+                        <img style={{width: "712px", height: "474.66px"}} src={FS778} alt="FS219"/>
                     </div>
                 </SRLWrapper>
             </Layout>

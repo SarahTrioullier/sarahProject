@@ -30,7 +30,7 @@ const StillLifeGallery = () => {
                 <SRLWrapper >
 
                     <div className="imageP">
-                        <img  style={{ marginTop: '200px', width: "656px", height: "526px"}} src={NINA_RICCI016} alt="NINA_RICCI016"/>
+                        <img  style={{ marginTop: '200px',  width: "712px", height: "569.6px"}} src={NINA_RICCI016} alt="NINA_RICCI016"/>
                     </div>
 
                     <div className="imageP" >
@@ -38,25 +38,25 @@ const StillLifeGallery = () => {
                     </div>
 
                     <div className="imageP">
-                        <img  style={{  width: "612px", height: "774.68px"}} src={NINA_RICCI062} alt="Alison"/>
+                        <img  style={{  width: "712px", height: "901.26px"}} src={NINA_RICCI062} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "612px", height: "490px"}} src={NINA_RICCI0313} alt="Capture"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={NINA_RICCI0313} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "712px", height: "569.6px"}} src={NINA_RICCI318} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "612px", height: "927.27px"}} src={NINA_RICCI136} alt="Capture"/>
+                        <img style={{width: "712px", height: "1078.78px"}} src={NINA_RICCI136} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "612px", height: "927.27px"}} src={NINA_RICCI186} alt="Alison"/>
+                        <img  style={{width: "712px", height: "1078.78px"}} src={NINA_RICCI186} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >
-                        <img style={{width: "612px", height: "927.27px"}} src={NINA_RICCI225} alt="Capture"/>
+                        <img style={{width: "712px", height: "1078.78px"}} src={NINA_RICCI225} alt="Capture"/>
                     </div>
                     <div className="imageP">
                         <img  style={{  width: "912px", height: "412.66px"}} src={Baccara62} alt="Alison"/>
@@ -73,7 +73,7 @@ const StillLifeGallery = () => {
                         <img style={{width: "712px", height: "569.6px"}} src={MJ108} alt="Capture"/>
                     </div>
                     <div className="imageP">
-                        <img  style={{  width: "812px", height: "541.33px"}} src={M10239} alt="Alison"/>
+                        <img  style={{  width: "712px", height: "474.66px"}} src={M10239} alt="Alison"/>
                     </div>
 
                     <div className="imageP" >

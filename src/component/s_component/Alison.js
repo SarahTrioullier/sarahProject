@@ -12,13 +12,13 @@ const Alison = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={A214} alt="A214"/>
+                        <img style={{width: "712px", height: "890px"}} src={A214} alt="A214"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={A217} alt="A217"/>
+                        <img style={{width: "712px", height: "890px"}} src={A217} alt="A217"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={A218} alt="A214"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={A218} alt="A214"/>
                     </div>
                 </SRLWrapper>
             </Layout>

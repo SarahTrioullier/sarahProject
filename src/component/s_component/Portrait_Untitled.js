@@ -14,19 +14,19 @@ const Portrait_Untitled = () => {
             <Layout>
                 <SRLWrapper >
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={AFlash063} alt="AFlash063"/>
+                        <img style={{width: "712px", height: "890px"}} src={AFlash063} alt="AFlash063"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={C033} alt="C033"/>
+                        <img style={{width: "712px", height: "962.16px"}} src={C033} alt="C033"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={mario} alt="mario"/>
+                        <img style={{width: "712px", height: "962.16px"}} src={mario} alt="mario"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={suguru} alt="suguru"/>
+                        <img style={{width: "712px", height: "962.16px"}} src={suguru} alt="suguru"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={yuzaku} alt="yuzaku"/>
+                        <img style={{width: "712px", height: "962.16px"}} src={yuzaku} alt="yuzaku"/>
                     </div>
                 </SRLWrapper>
             </Layout>
