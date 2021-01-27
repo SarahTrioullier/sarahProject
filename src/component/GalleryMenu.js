@@ -11,6 +11,7 @@ import still_life_logo from '../images/Still_life_logo.jpg';
 import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import LayoutHeader from "./LayoutHeader";
+import {Link} from "react-router-dom";
 
 
 

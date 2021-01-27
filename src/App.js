@@ -3,14 +3,14 @@ import './App.css'
 import SimpleReactLightbox from "simple-react-lightbox";
 import '@szhsin/react-menu/dist/index.css';
 import GalleryMenu from "./component/GalleryMenu";
+import Main from "./component/Main";
 
 class App extends Component {
     render() {
         return (
-            <SimpleReactLightbox>
-                <div style={{height: '2em'}}></div>
-                <GalleryMenu/>
-            </SimpleReactLightbox>
+            <div>
+                <Main />
+            </div>
         );
     }
 }

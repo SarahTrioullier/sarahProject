@@ -5,12 +5,13 @@ import HelveticaBrand from "./HelveticaBrand";
 function LayoutHeader({ children }) {
     return (
         <React.Fragment>
+            <div style={{marginBottom: '100px'}}>
             <HelveticaBrand />
-            <main >
-                <div style={{marginTop: '200px'}} >
-                    <div >{children}</div>
+            </div>
+                <div  >
+                    <div style={{marginTop: '100px'}}>{children}</div>
                 </div>
-            </main>
+
 
         </React.Fragment>
     );
