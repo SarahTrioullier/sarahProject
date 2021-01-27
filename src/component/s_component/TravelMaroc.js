@@ -1,4 +1,3 @@
-import NINA_RICCI016 from "../../images/Still life/Still life/NINA_RICCI-016.jpg";
 import {SRLWrapper} from "simple-react-lightbox";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Layout from "../../Layout";
@@ -14,7 +13,6 @@ import Maroc0211 from '../../images/Travel/MAROC-021 1.jpg'
 import Maroc022 from '../../images/Travel/MAROC-022.jpg'
 import Maroc025 from '../../images/Travel/MAROC-025.jpg'
 import Maroc0251 from '../../images/Travel/MAROC-025 1.jpg'
-
 const TravelMaroc = () => {
     return  (
         <Router>

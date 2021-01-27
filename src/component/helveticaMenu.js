@@ -46,19 +46,19 @@ SARAHTRIOULLIER
 
                             <div className="dropdown-content">
 
-                                <a className="dropContent " href="https://charlene19.github.io/sarahProject/#/" >
+                                <a className="dropContent " href="/" >
                                     Home
                                 </a>
 
-                                <a className="dropContent " href="https://charlene19.github.io/sarahProject/#/roster" >
+                                <a className="dropContent " href="/roster" >
                                     Portrait
                                 </a>
 
-                                <a className="dropContent "  href="https://charlene19.github.io/sarahProject/#/schedule" >
+                                <a className="dropContent "  href="/schedule#/schedule" >
                                     Still life
                                 </a>
 
-                                <a className="dropContent "  href="https://charlene19.github.io/sarahProject/#/galleryTravel" >
+                                <a className="dropContent "  href="/galleryTravel" >
                                     Travel
                                 </a>
 

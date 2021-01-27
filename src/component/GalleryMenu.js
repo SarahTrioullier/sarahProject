@@ -12,7 +12,7 @@ import './GalleryMenu.css';
 import instagram from "../images/instagram.png";
 import LayoutHeader from "./LayoutHeader";
 import PortraitGallery from "./s_component/Portrait_Gallery";
-import {Route} from "react-router-dom";
+import {Link, Route} from "react-router-dom";
 
 const options = {
 
@@ -39,7 +39,7 @@ const GalleryMenu = () => {
         <LayoutHeader>
 
 
-            <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/roster">
+            <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><Link to="/roster">
                 <img  className=" image _ay " src={portrait} alt="Portrait"/>
                 <div className=" normal _b1 ">
                     <div className=" text _2 ">
@@ -50,13 +50,13 @@ const GalleryMenu = () => {
                     <div className=" text _2 ">Portrait
                     </div>
                 </div>
-            </a> </div>
+            </Link> </div>
 
 
 
 
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/schedule">
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><Link to="/schedule">
                     <img className=" image _ay " src={stilllife} alt="StillLife"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
@@ -67,9 +67,9 @@ const GalleryMenu = () => {
                         <div className=" text _2 ">Still Life
                         </div>
                     </div>
-                </a></div>
+                </Link></div>
 
-                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="https://charlene19.github.io/sarahProject/#/galleryTravel">
+                <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><Link to="/galleryTravel">
                     <img className=" image _ay " src={travelde} alt="Travel"/>
                     <div className=" normal _b1 ">
                         <div className=" text _2 ">
@@ -80,7 +80,7 @@ const GalleryMenu = () => {
                         <div className=" text _2 ">Travel
                         </div>
                     </div>
-                </a></div>
+                </Link></div>
 
                 <div id="contact" onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href={accueil}>
                     <img className=" image _ay " src={accueil} alt="Contact"/>
