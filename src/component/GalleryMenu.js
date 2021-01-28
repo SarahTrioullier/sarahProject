@@ -38,7 +38,6 @@ const GalleryMenu = () => {
     return (
         <LayoutHeader>
 
-
             <div  onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><Link to="/roster">
                 <img  className=" image _ay " src={portrait} alt="Portrait"/>
                 <div className=" normal _b1 ">
@@ -51,10 +50,6 @@ const GalleryMenu = () => {
                     </div>
                 </div>
             </Link> </div>
-
-
-
-
 
                 <div onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><Link to="/schedule">
                     <img className=" image _ay " src={stilllife} alt="StillLife"/>

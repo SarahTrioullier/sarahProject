@@ -35,7 +35,7 @@ const header = {
 function HelveticaMenu() {
 
     return (
-        <Router>
+
             <div style={phantomStyle}>
                 <MDBNavbar className="header" style={{ backgroundColor: "transparent" }}   dark>
                     <MDBNavbarBrand>
@@ -46,37 +46,33 @@ SARAHTRIOULLIER
 
                             <div className="dropdown-content">
 
-                                <a className="dropContent " href="https://charlene19.github.io/sarahProject/#/" >
+                                <a href="https://charlene19.github.io/sarahProject/#/"   className="dropContent">
                                     Home
                                 </a>
 
-                                <a className="dropContent " href="https://charlene19.github.io/sarahProject/#/roster" >
+                                <a href="https://charlene19.github.io/sarahProject/#/roster" className="dropContent ">
                                     Portrait
                                 </a>
 
-                                <a className="dropContent "  href="https://charlene19.github.io/sarahProject/#/schedule" >
+                                <a href="https://charlene19.github.io/sarahProject/#/schedule" className="dropContent "  >
                                     Still life
                                 </a>
 
-                                <a className="dropContent "  href="https://charlene19.github.io/sarahProject/#/galleryTravel" >
+                                <a href="https://charlene19.github.io/sarahProject/#/galleryTravel" className="dropContent ">
                                     Travel
                                 </a>
 
-                                <a className="dropContent "  href="/gallery#contact" >
+                                <a href="/gallery#contact" className="dropContent " >
                                     Contact
                                 </a>
-
 
                             </div>
                         </div>
 
-
-
-
                     </MDBNavbarBrand>
                 </MDBNavbar>
             </div>
-        </Router>
+
     );
 }
 export default HelveticaMenu;

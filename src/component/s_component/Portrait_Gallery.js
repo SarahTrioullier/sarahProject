@@ -1,5 +1,5 @@
 import {SRLWrapper} from "simple-react-lightbox";
-import { BrowserRouter  } from 'react-router-dom';
+import {BrowserRouter, Link} from 'react-router-dom';
 import N9A7841 from '../../images/Portrait/Fahrenheit 21/_N9A7841.jpg'
 import Alison218 from '../../images/Portrait/NATAL/ALISON-218.jpg'
 import mario from '../../images/Portrait/Portrait_Untitled/mario.jpg'
@@ -13,8 +13,11 @@ import Adelaide1315Logo from '../../images/logo/ADELAIDE_KLRP1315.jpg'
 import AdelaidMontaLogo from '../../images/logo/ADELAIDE_KLRP_MONTA-03.jpg'
 import FS778Logo from '../../images/logo/FRANCK_SORBIER_778.jpg'
 import marioLogo from '../../images/logo/mario.jpg'
-
+import portraitUn from '../../images/logo/UNTITLE.jpg'
+import suguru from '../../images/Portrait/Portrait_Untitled/suguru.jpg'
+import farLogo from '../../images/logo/FAHRENHEIT21.jpg'
 import Layout from "../../Layout";
+import AdMoLo from '../../images/logo/ADELAIDE_KLRP_MONTA-03.jpg'
 
 import React from "react";
 
@@ -33,7 +36,7 @@ const PortraitGallery = () => {
                             </div>
                         </div>
                         <div className=" hover _b0 ">
-                            <img className=" image _ay " src={N9A7841Logo} alt="N9A7841Logo legend"/>
+                            <img className=" image _ay " src={farLogo} alt="N9A7841Logo legend"/>
                             <div className=" text _2 ">Fareinheit 21
                             </div>
                         </div>
@@ -57,14 +60,14 @@ const PortraitGallery = () => {
                     </a></div>
 
                     <div  style={{marginBottom: '20px', width : '900px', height: '1125px'}} onContextMenu={(e)=> e.preventDefault()} className=" overlay-image _ax "><a href="/portraitUntitled">
-                        <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={mario} alt="MYAJIMA_01"/>
+                        <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={suguru} alt="MYAJIMA_01"/>
                         <div className=" normal _b1 ">
                             <div className=" text _2 ">
                             </div>
                         </div>
                         <div className=" hover _b0 ">
-                            <img style={{marginBottom: '20px', width : '900px', height: '1125px'}}  className=" image _ay " src={marioLogo} alt="Alison218Logo"/>
-                            <div className=" text _2 ">Mario
+                            <img style={{marginBottom: '20px', width : '900px', height: '1125px'}}  className=" image _ay " src={portraitUn} alt="Alison218Logo"/>
+                            <div className=" text _2 ">Untitled
                             </div>
                         </div>
                     </a></div>
@@ -89,7 +92,7 @@ const PortraitGallery = () => {
                             </div>
                         </div>
                         <div className=" hover _b0 ">
-                            <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={AdelaidMontaLogo} alt="AdelaidMontaLogo legend"/>
+                            <img style={{width : '900px', height: '1125px'}} className=" image _ay " src={AdMoLo} alt="AdelaidMontaLogo legend"/>
                             <div className=" text _2 ">Adelaide Monta
                             </div>
                         </div>
