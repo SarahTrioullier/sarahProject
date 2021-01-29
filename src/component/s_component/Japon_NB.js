@@ -13,10 +13,11 @@ import REPRO45911 from '../../images/Travel/Japon/JaponNB/REPRO45911.jpg'
 import REPRO45919 from '../../images/Travel/Japon/JaponNB/REPRO45919.jpg'
 import REPRO45922 from '../../images/Travel/Japon/JaponNB/REPRO45922.jpg'
 import REPRO45926 from '../../images/Travel/Japon/JaponNB/REPRO45926.jpg'
+import REPRO45886 from '../../images/Travel/Japon/JaponNB/REPRO45886.jpg'
 import {BrowserRouter as Router} from "react-router-dom";
 import Layout from "../../Layout";
 import {SRLWrapper} from "simple-react-lightbox";
-import NINA_RICCI016 from "../../images/Still life/Still life/NINA_RICCI-016.jpg";
+
 
 const JaponNB = () => {
     return (
@@ -24,6 +25,27 @@ const JaponNB = () => {
         <Router>
             <Layout>
                 <SRLWrapper>
+                    <div className="imageP">
+                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45886}
+                             alt="REPRO45886"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45893}
+                             alt="REPRO45893"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45905}
+                             alt="REPRO45905"/>
+                    </div>
+
+                    <div className="imageP">
+                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45906}
+                             alt="REPRO45906"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45926}
+                             alt="REPRO45926"/>
+                    </div>
 
                     <div className="imageP">
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45891}
@@ -33,10 +55,7 @@ const JaponNB = () => {
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45892}
                              alt="REPRO45892"/>
                     </div>
-                    <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45893}
-                             alt="REPRO45893"/>
-                    </div>
+
                     <div className="imageP">
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45895}
                              alt="REPRO45895"/>
@@ -57,14 +76,8 @@ const JaponNB = () => {
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45904}
                              alt="REPRO45904"/>
                     </div>
-                    <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45905}
-                             alt="REPRO45905"/>
-                    </div>
-                    <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45906}
-                             alt="REPRO45906"/>
-                    </div>
+
+
                     <div className="imageP">
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45909}
                              alt="REPRO45909"/>
@@ -81,10 +94,7 @@ const JaponNB = () => {
                         <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45922}
                              alt="REPRO45922"/>
                     </div>
-                    <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45926}
-                             alt="REPRO45926"/>
-                    </div>
+
 
                 </SRLWrapper>
             </Layout>

@@ -19,11 +19,16 @@ const TravelMaroc = () => {
 
     <Layout>
         <SRLWrapper>
+
+            <div className="imageP">
+                <img  style={{ marginTop: '200px', width: "712px", height: "468.42px"}} src={Maroc004} alt="Maroc004"/>
+            </div>
+
       <div onContextMenu={(e)=> e.preventDefault()} className="imageP">
           <img  style={{ marginTop: '200px', width: "712px", height: "459.35px"}} src={Maroc003} alt="Maroc003"/>
       </div>
             <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "468.42px"}} src={Maroc004} alt="Maroc004"/>
+                <img  style={{ marginTop: '200px', width: "712px", height: "465.36px"}} src={Maroc012} alt="Maroc012"/>
             </div>
             <div className="imageP">
                 <img  style={{ marginTop: '200px', width: "712px", height: "474.66px"}} src={Maroc005} alt="Maroc005"/>
@@ -32,14 +37,16 @@ const TravelMaroc = () => {
                 <img  style={{ marginTop: '200px', width: "712px", height: "468.42px"}} src={Maroc009} alt="Maroc009"/>
             </div>
             <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "465.36px"}} src={Maroc012} alt="Maroc012"/>
+                <img  style={{ marginTop: '200px', width: "712px", height: "468.42px"}} src={Maroc0131} alt="Maroc0131"/>
             </div>
+
             <div className="imageP">
                 <img  style={{ marginTop: '200px', width: "712px", height: "474.66px"}} src={Maroc013} alt="Maroc013"/>
             </div>
             <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "468.42px"}} src={Maroc0131} alt="Maroc0131"/>
+                <img  style={{ marginTop: '200px', width: "712px", height: "474.66px"}} src={Maroc0211} alt="Maroc0211"/>
             </div>
+
             <div className="imageP">
                 <img  style={{ marginTop: '200px', width: "712px", height: "477.85px"}} src={Maroc022} alt="Maroc022"/>
             </div>
@@ -47,18 +54,14 @@ const TravelMaroc = () => {
                 <img  style={{ marginTop: '200px', width: "712px", height: "474.66px"}} src={Maroc025} alt="Maroc025"/>
             </div>
             <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "471.52px"}} src={Maroc0251} alt="Maroc0251"/>
-            </div>
-            <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "471.52px"}} src={Maroc022} alt="Maroc022"/>
+                <img  style={{ marginTop: '200px', width: "712px", height: "477.85px"}} src={Maroc021} alt="Maroc021"/>
             </div>
 
             <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "474.66px"}} src={Maroc0211} alt="Maroc0211"/>
+                <img  style={{ marginTop: '200px', width: "712px", height: "471.52px"}} src={Maroc0251} alt="Maroc0251"/>
             </div>
-            <div className="imageP">
-                <img  style={{ marginTop: '200px', width: "712px", height: "477.85px"}} src={Maroc021} alt="Maroc021"/>
-            </div>
+
+
         </SRLWrapper>
     </Layout>
 </Router>

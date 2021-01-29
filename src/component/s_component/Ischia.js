@@ -15,6 +15,7 @@ import Repro075 from '../../images/Travel/ischia/REPROS_ISCHIA_075.jpg'
 import Repro077 from '../../images/Travel/ischia/REPROS_ISCHIA_077.jpg'
 import Repro078 from '../../images/Travel/ischia/REPROS_ISCHIA_078.jpg'
 import Repro085 from '../../images/Travel/ischia/REPROS_ISCHIA_085.jpg'
+import Repro042 from '../../images/Travel/ischia/2019-03-07_REPROS_ISCHIA_042.jpg'
 import {BrowserRouter as Router} from "react-router-dom";
 import Layout from "../../Layout";
 import {SRLWrapper} from "simple-react-lightbox";
@@ -74,6 +75,9 @@ const Ischia = () => {
                     </div>
                     <div className="imageP" >
                         <img style={{width: "712px", height: "569.6px"}} src={Repro085} alt="Repro085"/>
+                    </div>
+                    <div className="imageP" >
+                        <img style={{width: "712px", height: "569.6px"}} src={Repro042} alt="Repro085"/>
                     </div>
                 </SRLWrapper>
             </Layout>
