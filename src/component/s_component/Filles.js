@@ -17,10 +17,68 @@ import TRICHATEAU02 from '../../images/Les filles/TRICHATEAU-017 1.jpg'
 import TRICHATEAU018 from '../../images/Les filles/TRICHATEAU-018.jpg'
 import TRICHATEAU019 from '../../images/Les filles/TRICHATEAU-019.jpg'
 import TRICHATEAU020 from '../../images/Les filles/TRICHATEAU-020 1.jpg'
+import {BrowserRouter as Router} from "react-router-dom";
+import Layout from "../../Layout";
 const Filles = () => {
+    return (
+        <Router>
+            <Layout>
+                <SRLWrapper >
     <div className="imageP">
-        <img style={{width: "912px", height: "412.66px"}} src={Baccara62} alt="Alison"/>
+        <img style={{width: "912px", height: "412.66px"}} src={F080} alt="F080"/>
     </div>
+    <div className="imageP">
+        <img style={{width: "912px", height: "412.66px"}} src={F082} alt="F082"/>
+    </div>
+    <div className="imageP">
+        <img style={{width: "912px", height: "412.66px"}} src={F006} alt="F006"/>
+    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={F011} alt="F011"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={F012} alt="F012"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={F03} alt="F03"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={Fsarah146017} alt="Fsarah146017"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={sarah146018} alt="sarah146018"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={sarah146024} alt="sarah146024"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={sarah146034} alt="sarah146034"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TIFF_14} alt="TIFF_14"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TIFF_15} alt="TIFF_15"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TRICHATEAU01} alt="TRICHATEAU01"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TRICHATEAU02} alt="TRICHATEAU02"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TRICHATEAU018} alt="TRICHATEAU018"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TRICHATEAU019} alt="TRICHATEAU019"/>
+                    </div>
+                    <div className="imageP">
+                        <img style={{width: "912px", height: "412.66px"}} src={TRICHATEAU020} alt="TRICHATEAU020"/>
+                    </div>
+                </SRLWrapper>
+            </Layout>
+        </Router>
+    );
 }
 
 export default Filles

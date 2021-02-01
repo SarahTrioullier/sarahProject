@@ -21,6 +21,8 @@ import Yamee from "./component/s_component/Yamee";
 import Portrait_Untitled from "./component/s_component/Portrait_Untitled";
 import Ischia from "./component/s_component/Ischia";
 import Japon_AutreCouleur from "./component/s_component/Japon_AutreCouleur";
+import Filles from "./component/s_component/Filles";
+import AdelaideInTheAir from "./component/s_component/AdelaideInTheAIr";
 const routing = (
     <BrowserRouter>
 <Switch>
@@ -60,7 +62,7 @@ const routing = (
         <Adelaide />
     </BrowserRouter>
     <BrowserRouter path="/adelintheaire">
-        <Adelaide />
+        <AdelaideInTheAir />
     </BrowserRouter>
     <BrowserRouter path="/yamee">
         <Yamee />
@@ -71,7 +73,9 @@ const routing = (
     <BrowserRouter path="/ischia">
         <Ischia />
     </BrowserRouter>
-
+    <BrowserRouter path="/lesfilles">
+        <Filles />
+    </BrowserRouter>
 
 
 
