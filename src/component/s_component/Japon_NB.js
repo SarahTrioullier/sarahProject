@@ -26,72 +26,72 @@ const JaponNB = () => {
             <Layout>
                 <SRLWrapper>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45886}
+                        <img style={{ width: "712px", height: "254.28px"}} src={REPRO45886}
                              alt="REPRO45886"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45893}
+                        <img style={{ width: "712px", height: "258.9px"}} src={REPRO45893}
                              alt="REPRO45893"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45905}
+                        <img style={{ width: "712px", height: "260.8px"}} src={REPRO45905}
                              alt="REPRO45905"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45906}
+                        <img style={{ width: "712px", height: "261.76px"}} src={REPRO45906}
                              alt="REPRO45906"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45926}
+                        <img style={{ width: "712px", height: "247.22px"}} src={REPRO45926}
                              alt="REPRO45926"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45891}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45891}
                              alt="REPRO45891"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45892}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45892}
                              alt="REPRO45892"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45895}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45895}
                              alt="REPRO45895"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45900}
+                        <img style={{ width: "612px", height: "526px"}} src={REPRO45900}
                              alt="REPRO45900"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45897}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45897}
                              alt="REPRO45897"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45903}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45903}
                              alt="REPRO45903"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45904}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45904}
                              alt="REPRO45904"/>
                     </div>
 
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45909}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45909}
                              alt="REPRO45909"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45911}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45911}
                              alt="REPRO45911"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45919}
+                        <img style={{width: "712px", height: "569.6px"}} src={REPRO45919}
                              alt="REPRO45919"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO45922}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45922}
                              alt="REPRO45922"/>
                     </div>
 
