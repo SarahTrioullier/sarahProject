@@ -61,7 +61,7 @@ const JaponNB = () => {
                              alt="REPRO45895"/>
                     </div>
                     <div className="imageP">
-                        <img style={{ width: "612px", height: "526px"}} src={REPRO45900}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO45900}
                              alt="REPRO45900"/>
                     </div>
                     <div className="imageP">

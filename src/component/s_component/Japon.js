@@ -19,41 +19,41 @@ const Japon = () => {
             <Layout>
                 <SRLWrapper>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={NAOSHIMA_05}
+                        <img style={{  width: "712px", height: "565.07px"}} src={NAOSHIMA_05}
                              alt="NAOSHIMA_05"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={TOKYO_15}
+                        <img style={{ width: "712px", height: "565.07px"}} src={TOKYO_15}
                              alt="TOKYO_15"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={KYOTO_09}
+                        <img style={{width: "712px", height: "565.07px"}} src={KYOTO_09}
                              alt="KYOTO_09"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={KOBE_04}
+                        <img style={{width: "712px", height: "565.07px"}} src={KOBE_04}
                              alt="KOBE_04"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={HIROSHIMA_02}
+                        <img style={{width: "712px", height: "565.07px"}} src={HIROSHIMA_02}
                              alt="HIROSHIMA_02"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={TOKYO_17}
+                        <img style={{width: "712px", height: "565.07px"}} src={TOKYO_17}
                              alt="TOKYO_17"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={NAOSHIMA_04}
+                        <img style={{width: "712px", height: "565.07px"}} src={NAOSHIMA_04}
                              alt="NAOSHIMA_04"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={MYAJIMA_01}
+                        <img style={{width: "712px", height: "565.07px"}} src={MYAJIMA_01}
                              alt="MYAJIMA_01"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={TOKYO_13}
+                        <img style={{width: "712px", height: "565.07px"}} src={TOKYO_13}
                              alt="TOKYO_13"/>
                     </div>
 

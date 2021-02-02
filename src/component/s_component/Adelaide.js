@@ -21,13 +21,13 @@ const Adelaide = () => {
                         <img style={{width: "712px", height: "569.6px"}} src={K1332} alt="K1332"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={K1433} alt="K1433"/>
+                        <img style={{width: "712px", height: "569.6px"}} src={K1433} alt="K1433"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={K1471} alt="K1471"/>
+                        <img style={{width: "512px", height: "640px"}} src={K1471} alt="K1471"/>
                     </div>
                     <div className="imageP" >
-                        <img style={{width: "512px", height: "775.75px"}} src={K1146} alt="K1146"/>
+                        <img style={{width: "512px", height: "640px"}} src={K1146} alt="K1146"/>
                     </div>
 
                 </SRLWrapper>

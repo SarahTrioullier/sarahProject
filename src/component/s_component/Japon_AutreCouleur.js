@@ -24,71 +24,67 @@ const JaponCouleur = () => {
             <Layout>
                 <SRLWrapper>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_029}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_029}
                              alt="TOKYO_13"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_028}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_028}
                              alt="TOKYO_15"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_024}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_024}
                              alt="TOKYO_17"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_018}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_018}
                              alt="TOKYO_17"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_015}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_015}
                              alt="TOKYO_15"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_030}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_030}
                              alt="NAOSHIMA_05"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPROS_JAPON_031}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPROS_JAPON_031}
                              alt="NAOSHIMA_04"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "712px", height: "196.68px"}} src={REPRO45793}
+                        <img style={{   width: "712px", height: "196.68px"}} src={REPRO45793}
                              alt="HIROSHIMA_02"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "712px", height: "255.19px"}} src={REPRO45752}
+                        <img style={{   width: "712px", height: "262.73px"}} src={REPRO45752}
                              alt="MYAJIMA_01"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO46027}
+                        <img style={{   width: "712px", height: "569.6px"}} src={REPRO46027}
                              alt="KOBE_04"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO46047}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO46047}
                              alt="TOKYO_13"/>
                     </div>
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "612px", height: "526px"}} src={REPRO46042}
+                        <img style={{ width: "712px", height: "569.6px"}} src={REPRO46042}
                              alt="NAOSHIMA_04"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "712px", height: "890px"}} src={REPRO46041}
+                        <img style={{   width: "712px", height: "890px"}} src={REPRO46041}
                              alt="KYOTO_09"/>
                     </div>
 
                     <div className="imageP">
-                        <img style={{marginTop: '200px', width: "712px", height: "465.36px"}} src={REPRO46044}
+                        <img style={{   width: "712px", height: "465.36px"}} src={REPRO46044}
                              alt="NAOSHIMA_05"/>
                     </div>
-
-
-
-
 
                 </SRLWrapper>
             </Layout>

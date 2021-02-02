@@ -7,7 +7,7 @@ function LayoutHeader({ children }) {
         <React.Fragment>
             <HelveticaBrand />
             <main >
-                <div style={{marginTop: '200px'}} >
+                <div  style={{marginTop: '200px'}} >
                     <div >{children}</div>
                 </div>
             </main>

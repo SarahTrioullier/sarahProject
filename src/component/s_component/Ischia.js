@@ -53,6 +53,9 @@ const Ischia = () => {
                         <img style={{width: "712px", height: "264.68px"}} src={Repro043} alt="Repro043"/>
                     </div>
                     <div className="imageP" >
+                        <img style={{width: "712px", height: "245.51px"}} src={Repro042} alt="Repro085"/>
+                    </div>
+                    <div className="imageP" >
                         <img style={{width: "712px", height: "238.12px"}} src={Repro045} alt="Repro045"/>
                     </div>
                     <div className="imageP" >
@@ -76,9 +79,7 @@ const Ischia = () => {
                     <div className="imageP" >
                         <img style={{width: "712px", height: "569.6px"}} src={Repro085} alt="Repro085"/>
                     </div>
-                    <div className="imageP" >
-                        <img style={{width: "712px", height: "569.6px"}} src={Repro042} alt="Repro085"/>
-                    </div>
+
                 </SRLWrapper>
             </Layout>
         </Router>
